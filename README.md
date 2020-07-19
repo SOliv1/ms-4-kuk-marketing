@@ -28,9 +28,28 @@
    1.  set up a base template with bootstrap
    1.   `cp - r` means copy recursively
    1.   cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/*
+            
+            This copies or the allauth templates in the packages so we can style them at will.
+1.  Getbootstrap.com > go to documentation and copy the starter template 
+    ### font stories  
+    *About Roboto
+        Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. This makes for a more natural reading rhythm more commonly found in humanist and serif types.
+
+        This is the regular family, which can be used alongside the Roboto Condensed family and the Roboto Slab family.
+        <addr>font-family: 'Montserrat', sans-serif;</Addr>
+        <Addr>-family: 'Roboto', sans-serif;</Addr>
+
+        To contribute, see github.com/google/roboto*
 1.  
-1.  
-1.  
+1.      <addr>The old posters and signs in the traditional Montserrat neighborhood of Buenos Aires inspired Julieta Ulanovsky to design this typeface and rescue the beauty of urban typography that emerged in the first half of the twentieth century. As urban development changes that place, it will never return to its original form and loses forever the designs that are so special and unique. The letters that inspired this project have work, dedication, care, color, contrast, light and life, day and night! These are the types that make the city look so beautiful. The Montserrat Project began with the idea to rescue what is in Montserrat and set it free under a libre license, the SIL Open Font License.
+            This is the normal family, and it has two sister families so far, Alternates and Subrayada. Many of the letterforms are special in the Alternates family, while 'Subrayada' means 'Underlined' in Spanish and celebrates a special style of underline that is integrated into the letterforms found in the Montserrat neighborhood. Updated November 2017: The family was redrawn by Jacques Le Bailly at Baron von Fonthausen over the summer, and the full set of weights were adjusted to make the Regular lighter and better for use in longer texts. In fall, Julieta Ulanovsky, Sol Matas, and Juan Pablo del Peral, led the development of Cyrillic support, with consultation with Carolina Giovagnoli, Maria Doreuli, and Alexei Vanyashin.
+
+            The Montserrat project is led by Julieta Ulanovsky, a type designer based in Buenos Aires, Argentina. To contribute, see github.com/JulietaUla/Montserrat
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300;1,600&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+            CSS rules to specify families
+
+            font-family: 'Montserrat', sans-serif;
+            font-family: 'Roboto', sans-serif;</addr>
 1.  
 1.  
 1.  
