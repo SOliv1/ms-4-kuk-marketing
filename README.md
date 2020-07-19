@@ -50,7 +50,8 @@
 
             font-family: 'Montserrat', sans-serif;
             font-family: 'Roboto', sans-serif;</addr>
-1.  
+1.      `python3 manage.py startapp home`
+                mkdir -p home/templates/home
 1.  
 1.  
 1.
