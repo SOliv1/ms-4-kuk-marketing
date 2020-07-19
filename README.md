@@ -31,6 +31,7 @@
             
             This copies or the allauth templates in the packages so we can style them at will.
 1.  Getbootstrap.com > go to documentation and copy the starter template 
+    
     ### font stories  
     *About Roboto
         Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. This makes for a more natural reading rhythm more commonly found in humanist and serif types.
@@ -50,12 +51,40 @@
 
             font-family: 'Montserrat', sans-serif;
             font-family: 'Roboto', sans-serif;</addr>
+
+## Home app
 1.      `python3 manage.py startapp home`
                 mkdir -p home/templates/home
-1.  
-1.  
-1.
-1.  
-1.  
-1.  
+1.      add the home app : `python3 manage.py startapp home`
+1.      then create a templates directory in the home app > mkdir -p to create parents as required.
+                    `mkdir -p home/templates/home`
+                        And then right-click the inner *home directory*, new file and create *index.html*
+
+1.          *extend the base template with extends base.html
+                And load the static tag with load static, so we can use static files as needed.
+                Lastly, we just need a content block with some content in it. So let's start with block content.
+                And inside that, I'll just add a simple h1 with class equals display-4 and text-success
+                to ensure bootstrap is working.  And I'll add the text it works.*
+1.          *view* to render this template so let's head into **views.py*
+                        And define an index view.
+                        Which will simply render the index template.
+1.          copy our project-level urls.py
+                        Create new file in the *home app*, called *urls.py*
+                        And paste it in to use as a shell
+                        take out 'include' here.
+                        And add one empty path to indicate that this is the route URL.
+                        to render views.index. With the name of 'home'
+                        then 'import views' from the current directory here at the top.
+                        save that.
+1.          go back to the *project level URLs file* and include the *home URLs*
+                        The very last thing we need to do is add the 'home app' to installed apps in 'settings.py'
+                        And then wire up our template directories.
+                                Add home to installed apps
+                                And then add both the route templates directory.
+                                And  custom allauth directory to the template dirs setting
+                                With that finished save and test it out
+                                start up the development server.
+                                Open the project.
+                                And we land on our home page with it works, rendered in the correct bootstrap styles.
+                                Stop server and commit the changes "add home app and templates"
 s
