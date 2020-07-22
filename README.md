@@ -87,4 +87,6 @@
                                 Open the project.
                                 And we land on our home page with it works, rendered in the correct bootstrap styles.
                                 Stop server and commit the changes "add home app and templates"
-s
+
+
+[![Build Status](https://travis-ci.com/SOliv1/ms-4-kuk-marketing.svg?branch=master)](https://travis-ci.com/SOliv1/ms-4-kuk-marketing)
