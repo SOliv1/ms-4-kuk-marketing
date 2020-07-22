@@ -27,6 +27,7 @@ body {
     width: fit-content;
 }
 
+
 .shop-now-button {
     background: black;
     color: white;
@@ -80,6 +81,6 @@ body {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 174px;
     }
 }
