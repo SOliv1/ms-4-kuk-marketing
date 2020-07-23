@@ -87,6 +87,51 @@
                                 Open the project.
                                 And we land on our home page with it works, rendered in the correct bootstrap styles.
                                 Stop server and commit the changes "add home app and templates"
+1.          set up the *products app* - load in some products.
+                                start by copying in the collection of product images.
+                                We pruned these from a data set at kaggle.com which is a great provider of
+                                free sample data for use in all sorts of industries.
+                                create the products app using python3 manage.py *startapp products^
+                                *python3 manage.py startapp products*
+                                add this app to installed apps in settings.py
+                                make a folder called fixtures inside the products app
+                                drag and drop a couple of JSON fixture files in here
+                                one for categories and one for products
+                python3 manage.py startapp products
+
+1.          Add to installed apps in settings.py mkdir products/fixtures
+
+                                Add categories and products json https://jsonformatter.org/ to validate
+
+                                Go to models.py and add code There - python3 manage.py makemigrations --dry-r dry run
+
+                                pip3 install pillow
+
+                                dry run again...
+
+                                python3 manage.py migrate --plan
+
+                                python3 manage.py makemigrations
+
+                                python3 manage.py migrate then... -python3 manage.py loaddata categories python3 manage.py loaddata products
+
+                                check it out - python3 manage.py runserver - go to admin
+
+                                products admin
+                                mkdir -p products/templates/products
+
+                                file = products.html
+
+1.          we're creating that inner products directory to make
+                                sure that django knows which app these templates belong to.
+                                In case any of them end up having the same names as other templates.
+                                And let's now create a products.html inside that directory.
+                                And copy the content of the home template in as a shell.
+                                The products template will still extend base.html
+                                And will still require static files as well as the page header
+                                python3 manage.py runserver                
+
+
 
 
 [![Build Status](https://travis-ci.com/SOliv1/ms-4-kuk-marketing.svg?branch=master)](https://travis-ci.com/SOliv1/ms-4-kuk-marketing)
