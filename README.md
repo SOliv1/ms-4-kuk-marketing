@@ -9,7 +9,10 @@
 1.  git remote -v (we are already linked to github)
 1.  pip3 install django-allauth
 1.  configure settings
-
+1. install travis
+    #### travis https://travis-ci.org
+        which version 
+        `python -V`
     ```AUTHENTICATION_BACKENDS = [
 
     # Needed to login by username in Django admin, regardless of `allauth`
