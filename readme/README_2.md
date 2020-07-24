@@ -1,4 +1,27 @@
   ##    Add Products to Product App
+        jsonformatter.org
+
+        python3 manage.py startapp products
+
+            Add to installed apps in settings.py mkdir products/fixtures
+
+            Add categories and products json https://jsonformatter.org/ to validate
+
+            Go to models.py and add code There - python3 manage.py makemigrations --dry-run
+
+            pip3 install pillow
+
+            dry run again...
+
+            python3 manage.py migrate --plan
+
+            python3 manage.py makemigrations
+
+            python3 manage.py migrate then... -python3 manage.py loaddata categories python3 manage.py loaddata products
+
+            check it out - python3 manage.py runserver - go to admin
+
+
   1.  1.          copy our project-level urls.py
                         Create new file in the *home app*, called *urls.py*
                         And paste it in to use as a shell

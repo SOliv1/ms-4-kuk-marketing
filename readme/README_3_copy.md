@@ -1,6 +1,6 @@
  ## Toasts 
     https://getbootstrap.com/docs/4.5/components/toasts/
-    
+
  1.         Inside the main templates/includes folder let's add an additional subfolder to contain all the toasts
                     These toasts will be small HTML snippets that will pop up when a user performs an action
                     such as adding something to their shopping bag.
@@ -47,9 +47,12 @@
                         -last - add one more setting to *settings.py* to tell it to store messages in the session this is
                                 often not a required step because there is a default which falls back to this
                                 storage method but *NOTE - due to the use of git pod in these recordings it's required
-                                for us*
-    1.  
-    1.  
+##  checkout                         for us*
+1.  python3 manage.py startapp checkout
+
+    1. go to mokels.py and add the appropriate code 
+        add the app to the settings.py
+        'python3 manage.py makemigrations --dry-run' 
     1.  
     1.  
     1.  
