@@ -6,15 +6,15 @@ from .models import Product, Category
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
-        'sku',
-        'name',
         'category',
-        'price',
         'rating',
+        'name',
+        'price',
         'image',
+        'sku',
     )
 
-    ordering = ('sku',)
+    ordering = ('category',)
 
 
 class CategoryAdmin(admin.ModelAdmin):
