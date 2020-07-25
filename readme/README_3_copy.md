@@ -64,12 +64,13 @@
 
 
     
-
-    
-
-
-    1.  
-   1. 
+##  Shopping bag
+1.      python3 manage.py startapp bag  
+        and add bag app to settings as well
+   1.   go to views.py and add to that
+        then create urls.py in bag and add paths to that
+        followed by update paths in urls.py project
+        section 
    1.  
    1.  
    1.  
