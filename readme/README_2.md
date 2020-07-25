@@ -9,7 +9,8 @@
 
             Go to models.py and add code There - python3 manage.py makemigrations --dry-run
 
-            pip3 install pillow
+            pip3 install pillow or 
+            python -m pip install pillow
 
             dry run again...
 
