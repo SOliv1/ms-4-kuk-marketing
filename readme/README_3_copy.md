@@ -71,6 +71,9 @@
         then create urls.py in bag and add paths to that
         followed by update paths in urls.py project
         section 
+        then context.py in bag app
+        then in settings.py in context list of processors -  'bag.context.bag_contents',
+        
    1.  
    1.  
    1.  
