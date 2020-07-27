@@ -50,9 +50,10 @@
 ##  checkout                         for us*
 1.  python3 manage.py startapp checkout
 
-    1. go to mokels.py and add the appropriate code 
+    1. go to models.py and add the appropriate code 
         add the app to the settings.py
         'python3 manage.py makemigrations --dry-run' 
+        pip3 install django_countries to add the countries to the checkout form
     1.  python3 manage.py makemigrations
     1.  python3 manage.py migrate
     1.  python3 manage.py loaddata categories
