@@ -74,7 +74,10 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
-                'bag.context.bag_contents',
+                'django.template.context_processors.media',
+                'django.template.context_processors.media',
+                'bag.contexts.bag_contents',
+                
             ],
         },
     },
