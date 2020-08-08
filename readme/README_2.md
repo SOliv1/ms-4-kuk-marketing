@@ -197,7 +197,7 @@
             create views and save then create a new urls file by copying from home app and modifying it. go to product level urls and include check_out.urls. -create new templates folder and checkout folder inside it and check_out.html inside that. -then create css. Add static folder inside checkout app then check_out folder inside that then finally a check_out.css inside that. install django crispy forms to format forms using bootstrap styling forms automatically.
 
             pip3 install django-crispy-forms
-            pip3 install crispy_forms
+        
 
             then add `crispy forms`, to our installed apps in 
             `settings.py`, and tell it what template pack it is bootstratp4 in this case.
