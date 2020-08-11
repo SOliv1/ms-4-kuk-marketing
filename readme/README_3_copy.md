@@ -55,6 +55,7 @@
         'python3 manage.py makemigrations --dry-run' 
         pip3 install django_countries to add the countries to the checkout form
     1.  python3 manage.py makemigrations
+        python3 manage.py makemigrations --dry-run
     1.  python3 manage.py migrate
     1.  python3 manage.py loaddata categories
         python3 manage.py loaddate products
@@ -75,28 +76,11 @@
         then context.py in bag app
         then in settings.py in context list of processors -  'bag.context.bag_contents',
         
-   1.  
-   1.  
-   1.  
-   1.  
-   1.  
+   
    1.   `cp - r` means copy recursively
    1.   cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/*
             
 1.          
 1.  
    
-1.       
-1.  
-1.      
-
-1.      
-1.                
-1.      
-1.      
-1.                     
-1.  
-1.          
-1.          
-1.          
-1.          
+         

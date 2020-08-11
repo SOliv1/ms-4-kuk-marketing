@@ -1,4 +1,13 @@
-  1.  
+  1.  `alt + up/down arrows` to move a line or block of code up or down
+        `alt + click` to select multiple regions
+1.      
+1.      
+1.                     
+1.  
+1.          
+1.          
+1.          
+1. 
 1.  
 1.  
 1.  
