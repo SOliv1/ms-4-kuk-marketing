@@ -81,6 +81,6 @@
    1.   cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/*
             
 1.          
-1.  
-   
+1.  stripe:
+  export_STRIPE_WH_SECRET= ''
          
