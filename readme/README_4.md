@@ -1,7 +1,8 @@
   1.  `alt + up/down arrows` to move a line or block of code up or down
         `alt + click` to select multiple regions
 1.      
-1.   pip3 install django-crispy-forms   
+1.   pip3 install django-crispy-forms 
+     pip3 install django-crispy-forms
 1.                     
 1.  
 1.          
