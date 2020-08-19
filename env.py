@@ -1,6 +1,4 @@
 import os
-# os.environ.setdefault("DATABASE_URL",
-#                      'postgres://voqmyzmkhsrplx:13ee286cbea8e1d7d066d6474f55cb024d069db5993ecff587e6504370567')
 os.environ.setdefault("HOST", 'localhost:127.0.0.1'),
 os.environ.setdefault("DEVELOPMENT", '1'),
 os.environ.setdefault("DJANGO_DEBUG", 'True'),
@@ -8,8 +6,10 @@ os.environ.setdefault("STRIPE_PUBLIC_KEY",
                       'pk_test_51GtAGjDvyPDUJbikVWyYOumfWpQlZdzXnhDKRPPeNvSX0RTApmHnUmOvnsgpHwaqoUUp5ekqlKl8xxHlcFyKKvVT00WWP5gmou'),
 os.environ.setdefault("STRIPE_SECRET_KEY",
                       'sk_test_51GtAGjDvyPDUJbikpwurphl2orPFN3yLUIWg7GhBxnGFoyPtIhS1RjlSldLJjsItel7d2OWONC3Yj8uPudKqXpmS00hqKMIbtF'),
-os.environ.setdefault("STRIPE_WH_SECRET", 'whsec_owrfJZiVrL2DdbLfz6qAO8JwN4Ooc03t'),
-os.environ.setdefault("SECRET_KEY", ''),
+os.environ.setdefault("STRIPE_WH_SECRET",
+                      'whsec_owrfJZiVrL2DdbLfz6qAO8JwN4Ooc03t'),
+os.environ.setdefault("SECRET_KEY",
+                      '2%g3f8$pz+vuu-30gle=cr+4y!(j)cnw#w5-95y$@!0d@mb=1f'),
 os.environ.setdefault("DJANGO_SETGS_MODULE", 'django_auth.settings'),
 os.environ.setdefault("DJANGO_SETGS_MODULE", 'django_auth.settings'),
 
