@@ -28,7 +28,7 @@ SECRET_KEY = "SECRET_KEY"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
-DEBUG = True
+# DEBUG = True
 
 ALLOWED_HOSTS = ['kuk-milestone-4.herokuapp.com', 'localhost']
 
