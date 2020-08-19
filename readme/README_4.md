@@ -3,9 +3,14 @@
 1.      
 1.   pip3 install django-crispy-forms 
      pip3 install django-crispy-forms
-1.                     
-1.  
-1.          
+
+ ## Deploying to heroku
+1.        pip3 install pip3 install whitenoise
+           pip3 install gunicorn  
+
+1. ` echo "env.py" >> .gitignore `
+    ` nano .gitignore ` to check that the file is still there (then exit out) by pressing enter 
+1.          `git status ` 
 1.          
 1.          
 1. 
