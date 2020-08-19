@@ -1,5 +1,6 @@
 import os
-
+# os.environ.setdefault("DATABASE_URL",
+#                      'postgres://voqmyzmkhsrplx:13ee286cbea8e1d7d066d6474f55cb024d069db5993ecff587e6504370567')
 os.environ.setdefault("HOST", 'localhost:127.0.0.1'),
 os.environ.setdefault("DEVELOPMENT", '1'),
 os.environ.setdefault("DJANGO_DEBUG", 'True'),
