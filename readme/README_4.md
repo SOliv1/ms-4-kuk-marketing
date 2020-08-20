@@ -35,7 +35,16 @@
 
     1.  
    1. 
-   1.  
+   1.  To check heroku logs on the gitpod terminal:
+       follow these steps f you quit the server with Ctrl+C then type
+        `heroku login -i
+        and sign in, then run:
+        heroku logs --tail -a kuk-milestone-4`
+        Go to AWS login and create a bucket then the bucket policy and the user'
+        S3 and then to IAM 
+         
+        pip3 install boto3
+        pip3 install django-storages
    1.  
    1.  
    1.  
