@@ -58,7 +58,7 @@
         python3 manage.py makemigrations --dry-run
     1.  python3 manage.py migrate
     1.  python3 manage.py loaddata categories
-        python3 manage.py loaddate products
+        python3 manage.py loaddata products
     1.  fill out models.py then views.py then urls.py then project level urls.py
 
     1.  mkdir -p products/templates/products
