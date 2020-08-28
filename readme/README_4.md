@@ -14,20 +14,7 @@
 1.          
 1.          
 1. 
-1.  
-1.  
-1.  
-1.  
-1.  
-1.  
-1.  
-1.  
-1.  
-1.  
-
-   
-
-    # Needed to login by username in Django admin, regardless of `allauth`
+ # Needed to login by username in Django admin, regardless of `allauth`
     
 
     # `allauth` specific authentication methods, such as login by e-mail
@@ -51,9 +38,20 @@
    1.  
    1.   `cp - r` means copy recursively
    1.   cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/*
-            
-1.          
+## CREDits and  ACKNOWLEDGEMENTS  (Other website acknowledgemnts)       
+1.  The whole website code was copied but from conception to completion and NOT cloned as a whole from the Code Institue Fullstack final e-commerce website.
+    ACKNOWLEDGEMENTS and Credits go to ckz8780 Chris Zielinski who created the excellent Boutique Ado Website.
+        Most of the products are taken from the C.I. dataset which originates from https://www.kaggle.com/  and modified to suit the purpose of this website.  
+        I do not claim to make the code from this website my own. But I did build this website from conception to completion in an effort to understand the process more clearly.
+        Any intention to pass off any code as my own is purely unintentional.
+1.    Products and fixtures credits images 'Tailor Brands https://studio.tailorbrands.com/ : 
+        *Brand-book-1_VvE5VhU.webp*, *Business-deck-1-1 (1).webp*, *Business-deck-1-1 (1).webp* 
+        Also branding and marketing ideas are based the Tailor Brands website.
 1.  
+
+    
+    
+    
     ### font stories  
 1.   
 1.       
