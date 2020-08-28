@@ -47,8 +47,8 @@
 1.    Products and fixtures credits images 'Tailor Brands https://studio.tailorbrands.com/ : 
         *Brand-book-1_VvE5VhU.webp*, *Business-deck-1-1 (1).webp*, *Business-deck-1-1 (1).webp* 
         Also branding and marketing ideas are based the Tailor Brands website.
-1.  
-
+1.      New Products all credits go to: Cool wine accesories and branding image and copied text credits from https://www.igopromo.co.uk/
+1.      New Products all credits go to: https://www.igopromo.co.uk/inspiration-pages/sustainable-products/bandana-rpet-multi-functional-scarf-all-over-printing/p4348-master
     
     
     
