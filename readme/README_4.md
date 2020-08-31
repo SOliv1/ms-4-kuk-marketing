@@ -19,12 +19,13 @@
 
     # `allauth` specific authentication methods, such as login by e-mail
     '
-
+##  Deploying to heroku
     1.  
    1. 
    1.  To check heroku logs on the gitpod terminal:
        follow these steps f you quit the server with Ctrl+C then type
-        `heroku login -i
+    1.  `heroku login -i`
+    1.  `heroku config:set DISABLE_COLLECTSTATIC=1 --app kuk-milestone-4`
         and sign in, then run:
         heroku logs --tail -a kuk-milestone-4`
         Go to AWS login and create a bucket then the bucket policy and the user'
@@ -59,7 +60,7 @@
 1.      
 
 ## Product app
-1.      
+1.     *Given to me by Kevin at C.I. tutor support* 
 1.   The easiest fix would be to empty your DB on Heroku: https://stackoverflow.com/questions/4820549/how-to-empty-a-heroku-database
 Then export the products from your local project to a fixtures file (Django can create the JSON files automatically for you):
 python manage.py dumpdata products.product --indent 4              
