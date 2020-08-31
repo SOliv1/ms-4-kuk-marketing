@@ -18,7 +18,10 @@
 
             python3 manage.py makemigrations
 
-            python3 manage.py migrate then... -python3 manage.py loaddata categories python3 manage.py loaddata products
+            `python3 manage.py migrate`
+             then... -
+            `python3 manage.py loaddata categories`
+            `python3 manage.py loaddata products`
 
             check it out - python3 manage.py runserver - go to admin
 

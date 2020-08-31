@@ -13,7 +13,7 @@
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item ">By Price</a>
                 <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}" class="dropdown-item">Our Services</a>
+                <a href="{% url 'products' %}" class="dropdown-item">Our Products</a>
             </div>
         </li>
 
@@ -22,10 +22,12 @@
                 About Us 
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=activewear,essentials" class="dropdown-item">Expertise</a>
-                <a href="{% url 'products' %}?category=jeans" class="dropdown-item">How Can We Help</a>
-                <a href="{% url 'products' %}?category=shirts" class="dropdown-item">Shine Your Business</a>
-                <a href="{% url 'products' %}?category=activewear,essentials,jeans,shirts" class="dropdown-item">Conact Us</a>
+                <a href="{% url 'products' %}" class="dropdown-item">Our Products</a>
+                <div>
+                <a href="" class="dropdown-item">Our Services</a>
+                <a href="" class="dropdown-item">Shine Your Business</a>
+                <a href="" class="dropdown-item">Conact Us</a>
+                </div>
             </div>
         </li>
 

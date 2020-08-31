@@ -58,9 +58,11 @@
 1.  
 1.      
 
-## Home app
+## Product app
 1.      
-1.                
+1.   The easiest fix would be to empty your DB on Heroku: https://stackoverflow.com/questions/4820549/how-to-empty-a-heroku-database
+Then export the products from your local project to a fixtures file (Django can create the JSON files automatically for you):
+python manage.py dumpdata products.product --indent 4              
 1.      
 1.      
 1.                     
