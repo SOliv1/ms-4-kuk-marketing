@@ -7,7 +7,7 @@
         </li>
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Our Services
+                Our Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
@@ -51,6 +51,22 @@
                 <a href="{% url 'products' %}?category=deals" class="dropdown-item">Website Design</a>
                 <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Web Development</a>
                 <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">Digital Marketing</a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="nav-item dropdown">
+    <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Our Services
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">About Us</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Our Services</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Our Brands</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">Contact Us</a>
             </div>
         </li>
     </ul>
