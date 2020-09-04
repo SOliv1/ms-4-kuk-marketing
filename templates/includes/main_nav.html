@@ -24,9 +24,9 @@
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
                 <a href="{% url 'products' %}" class="dropdown-item">Our Products</a>
                 <div>
-                <a href="" class="dropdown-item">Our Services</a>
-                <a href="" class="dropdown-item">Shine Your Business</a>
-                <a href="" class="dropdown-item">Conact Us</a>
+                <a href="services/about" class="dropdown-item">Our Services</a>
+                <a href="services/our_brands" class="dropdown-item">Shine Your Business</a>
+                <a href="services/contact_us" class="dropdown-item">Contact Us</a>
                 </div>
             </div>
         </li>
@@ -59,14 +59,13 @@
 <div class="nav-item dropdown">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black" href="services-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Our Services
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">About Us</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Our Services</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Our Brands</a>
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">Contact Us</a>
+            <div class="dropdown-menu border-0" aria-labelledby="services-link">
+                <a class="dropdown-item" href="services/about">About Us</a>
+                <a class="dropdown-item" href="services/our_brands">Our Brands</a>
+                <a class="dropdown-item" href="services/contact_us">Contact Us</a>
             </div>
         </li>
     </ul>

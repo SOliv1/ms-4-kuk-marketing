@@ -2,9 +2,9 @@ from django.shortcuts import render
 
 
 def services(request):
-    """ A view to all services page """
+    """ A view to show individual product details """
 
-    return render(request, '/services.html')
+    return render(request, 'services/', )
 
 
 def about(request):
