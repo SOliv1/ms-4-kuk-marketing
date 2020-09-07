@@ -1,5 +1,9 @@
-{% extends "base.html" %}
-{% load static %}
+{{% load static %}
+{% load bag_tools %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'services/css/services.css' %}
+{% endblock %}
 
 {% block page_header %}
 {% block content %}
@@ -7,7 +11,7 @@
         <div class="row h-100">
             <div class="col-7 col-md-6 my-auto">
                 <h1 class="display-4 logo-font text-black, main-header.style">
-                    Shine Your Business
+                    About Us
                 </h1>
             </div>
         </div>
