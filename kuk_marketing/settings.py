@@ -193,7 +193,7 @@ if 'USE_AWS' in os.environ:
 
     #  Config Bucket
 if 'USE_AWS' in os.environ:
-    AWS_STORAGE_BUCKET_NAME = 'ms-4-kuk-marketing'
+    AWS_STORAGE_BUCKET_NAME = 'kuk-milestone-4'
     AWS_S3_REGION_NAME = 'eu-west-2'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
@@ -218,6 +218,7 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

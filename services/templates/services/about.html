@@ -1,5 +1,9 @@
-{% extends "base.html" %}
-{% load static %}
+{{% load static %}
+{% load bag_tools %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'services/css/services.css' %}
+{% endblock %}
 
 {% block page_header %}
 {% block content %}
@@ -7,13 +11,12 @@
         <div class="row h-100">
             <div class="col-7 col-md-6 my-auto">
                 <h1 class="display-4 logo-font text-black, main-header.style">
+<<<<<<< HEAD
                    About
+=======
+                    About Us
+>>>>>>> 4c4b2d4dfb07fd98109622a8565a7e4f4258c8b8
                 </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shine Now</a>
-                    </h4>
-                </div>
             </div>
         </div>
     </div>
@@ -24,7 +27,11 @@
         </div>
     </div>
     <div class="row">
+<<<<<<< HEAD
         <h2>About</h2>
+=======
+        <h2>About Us</h2>
+>>>>>>> 4c4b2d4dfb07fd98109622a8565a7e4f4258c8b8
     </div>
     <div>
         <div class = "lead">We are a niche marketing business with the aim of shining in a fast pace world. 
@@ -33,6 +40,7 @@
                 <p>We thrive on bringing out the best results for our clients
                    and positively blaze on the internet, social media and beyond!
                 </p>
+            </div>    
                 <div class= "row">
                     <div class= "col">
                         <h3>Contact us now to discuss your requirements</h3>
@@ -42,5 +50,3 @@
         <div>
     </div>    
 {% endblock %}
-        
-    
