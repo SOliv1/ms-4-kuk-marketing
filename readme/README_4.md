@@ -30,7 +30,7 @@
         heroku logs --tail -a kuk-milestone-4`
         Go to AWS login and create a bucket then the bucket policy and the user'
         S3 and then to IAM 
-         
+        pip3 install django dj-database-url
         pip3 install boto3
         pip3 install django-storages
    1.  
