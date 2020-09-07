@@ -35,24 +35,42 @@
         pip3 install django-storages
    1.  
    1.  
-   1.  
+### Bugs and Problems I encountered whilst building this website:
+
+#### Merge isssues 
+
+I had two websites going simultanously as I built this website mainly when one failed me I would go with the other one.  But I found out that perhaps this is not such a good idea as when it came to merging the websites
+to the master, I encountered *merge issues*.  I have done this procedure on my past websites and have not had much of a problem with merging but this time I did.  This is probably due to the complexity of the 
+website which I guess I shoud have realised.  I did try the following code to debug from the C. I. Troubleshooting tips:
+
+>>If you’re stuck in an editor, don’t panic -
+Less - “less” is a pager program that may automatically open on the command line whenever you ask to read a very long file or output (e.g. when using “git log” on a repository with lots of history).
+You can use the arrow keys or the page up/down keys to scroll around in Less. You can also use the “/” key to search for a specific part of the text and the “n” key to go to the next match.
+Use the “q” key to quit Less.
+>
+
    1.  
    1.   `cp - r` means copy recursively
    1.   cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/*
+#   CREDITS AND ACKNOWLEDGEMENTS
+
 ## CREDits and  ACKNOWLEDGEMENTS  (Other website acknowledgemnts)       
-1.  The whole website code was copied but from conception to completion and NOT cloned as a whole from the Code Institue Fullstack final e-commerce website.
-    ACKNOWLEDGEMENTS and Credits go to ckz8780 Chris Zielinski who created the excellent Boutique Ado Website.
+1.  The whole website code was copied from conception to completion and NOT Cloned( as a whole).   Each page was copied and modified to suit the purposes of my website, 
+    from the *Code Institue(C. I.) Fullstack final e-commerce website*.
+    Other ideas and layouts came from my previous milestone websites Cook Corner and Procol Harum which in turn were based on the excellent C. I. mini projects Thorin and Company and Putting it altogether mini projects.
+### ACKNOWLEDGEMENTS and all  Credits go to *ckz8780 Chris Zielinski* who created the excellent *Boutique Ado Website*.
         Most of the products are taken from the C.I. dataset which originates from https://www.kaggle.com/  and modified to suit the purpose of this website.  
         I do not claim to make the code from this website my own. But I did build this website from conception to completion in an effort to understand the process more clearly.
-        Any intention to pass off any code as my own is purely unintentional.
+        Any intention to pass off any code as my own was and is purely unintentional.
 1.    Products and fixtures credits images 'Tailor Brands https://studio.tailorbrands.com/ : 
         *Brand-book-1_VvE5VhU.webp*, *Business-deck-1-1 (1).webp*, *Business-deck-1-1 (1).webp* 
         Also branding and marketing ideas are based the Tailor Brands website.
 1.      New Products all credits go to: Cool wine accesories and branding image and copied text credits from https://www.igopromo.co.uk/
-1.      New Products all credits go to: https://www.igopromo.co.uk/inspiration-pages/sustainable-products/bandana-rpet-multi-functional-scarf-all-over-printing/p4348-master
-    
-    
-    
+1.      New Products all credits go to: https://www.igopromo.co.uk/inspiration-pages/sustainable-products/bandana-rpet-multi-functional-scarf-all-over-printing/p4348-master    
+1.  Other website Ideas and inspiration - https://www.walkeragency.co.uk/work
+1. All the excellent *Code Institute Student Care Team* who cheerfully assisted me and encouraged me to keep going even when I felt like giving up.
+1.  All the fantastic tutors who were always there to support me.  Their assistance was *invaluable*.
+
     ### font stories  
 1.   
 1.       

@@ -1,9 +1,9 @@
-  /* @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900) */
+   @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900) 
 
 /*--   Brands-Page -------------------------------------------------- */
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 
 margin {
@@ -447,24 +447,6 @@ h4 {
     margin: 35px;
 }
 
-/*-- Gallery-Styles ---------------------------------------------------- */
-
-body {
-    font-family: 'Lato', sans-serif;
-    margin-top: auto;
-    padding-bottom: 3rem;
-    font-size: 20px;
-}
-
-.feature-heading {
-    font-size: 50px;
-}
-
-
-.carousel {
-    margin-bottom: 4rem;
-}
-
 /* Since positioning the image, we need to help out the caption */
 
 .carousel-caption {
@@ -607,7 +589,6 @@ p {
 .emailer b {
     font-weight: bold;
 }
-
 
 /*-- End - Contact-Form ----------------------------------------------*/
 
