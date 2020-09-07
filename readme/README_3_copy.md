@@ -82,5 +82,15 @@
             
 1.          
 1.  stripe:
-  export_STRIPE_WH_SECRET= ''
+    export STRIPE_PUBLIC_KEY=pk_test_
+    export STRIPE_SECRET_KEY=sk_test_
+
+    export_STRIPE_WH_SECRET= ''
+
+            test card no = 
+            4242424242424242
+    second test card no. to trigger the overlay spinner:- 
+        test card spinner:- 4000002500003155
+    -   to test the integrations for stripe payments and the spinner overlay.        
+  
          

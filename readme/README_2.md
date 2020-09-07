@@ -65,6 +65,7 @@
                                 Go to models.py and add code There - python3 manage.py makemigrations --dry-r dry run
 
                                 pip3 install pillow
+                                `python -m pip install Pillow`
 
                                 dry run again...
 

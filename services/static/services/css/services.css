@@ -2,35 +2,21 @@
 
 /*--   Brands-Page -------------------------------------------------- */
 
-
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 margin {
     width:1200px;
-    left:auto;
-    right:auto;
+    left:30 px;
+    right:30 px;
     top: 0;
     bottom:0;
    
 }
 /*--- dropdown-menu styles ---*/
 
-.navbar-nav .mr-auto ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-}
 
-.active .nav-item .mr-2 li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
 
 /*--  Change the link color on hover -------*/
 
@@ -69,7 +55,7 @@ li a:hover:not(.active) {
 
 .callout-container  {
     height: 100vh;
-    background: url("../images/poco-8.png") no-repeat bottom right fixed;
+    background: url("../earth.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -255,7 +241,7 @@ a:hover {
 /*-- Images --------------*/
 
 .img .style .height {
-    background-image: url("..images/poco-6.png");
+    background-image: url("");
 }
 
 /*-- Images-2  -------*/
