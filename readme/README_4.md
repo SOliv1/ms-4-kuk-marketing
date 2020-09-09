@@ -11,9 +11,16 @@
 1. ` echo "env.py" >> .gitignore `
     ` nano .gitignore ` to check that the file is still there (then exit out) by pressing enter 
 1.          `git status ` 
-1.          
-1.          
-1. 
+1. #BUGS  I encounted:-       
+##  Export your DATABASE_URL in Gitpod - very important!
+        export DATABASE_URL="Paste your PostGRES connection string in quotes"
+        then make your migrations
+        then loaddata
+        You have to migrate *before* your load other wise the database is never created.       
+    1.  I had an issue with the above not being able to deploy properly to heroku because I did not follow 
+        the above procedure and therefore it did not create the database.  I tried resetting the databse and destroying it but it was a simple
+        procedure above that fixed it in the end.  I consulted a tutor who made me realize the steps that I had missed.  This was
+        an experience I shall not forget in future.  
  # Needed to login by username in Django admin, regardless of `allauth`
     
 
