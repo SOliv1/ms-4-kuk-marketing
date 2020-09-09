@@ -69,3 +69,8 @@ def digital_marketing(request):
 
     return render(request, 'services/digital_marketing.html')
 
+
+def calculator(request):
+    """ A view to show a calculator page """
+
+    return render(request, 'services/calculator.html')

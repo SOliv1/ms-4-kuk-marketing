@@ -55,7 +55,7 @@
                                 make a folder called fixtures inside the products app
                                 drag and drop a couple of JSON fixture files in here
                                 one for categories and one for products
-                python3 manage.py startapp products
+            python3 manage.py startapp products
 ## Add Products and fixtures
 
 1.          Add to installed apps in settings.py mkdir products/fixtures
@@ -148,7 +148,7 @@
 
 ## Adding Products part5
 
-1.            attach some plus and minus buttons to this input to make it easier to use on mobile.
+1.          Attach some plus and minus buttons to this input to make it easier to use on mobile.
             JavaScript handles updating the input box itself. Since these buttons won't do anything by default.
             write that JavaScript right now. do it in an include since we'll also use it on the shopping bag page in the next video.
             Create an includes directory in the products template folder.
@@ -193,7 +193,14 @@
             python3 manage.py startapp checkout Add to the models.py in the checkout app and then dry run the applications to be created. python3 manage.py makemigrations --dry-run then python3 manage.py makemigrations then python3 manage.py migrate --plan to make sure we are not missing anything then finally actually run them: python3 manage.py migrate
             Let's commit these changes with git add . git commit -m "created check out app and models" git push
 ## Create models
-1.            Create models.py
+
+            > https://github.com/django/django/tree/master/django/db/models
+            Create Forms django documentation:
+             https://docs.djangoproject.com/en/dev/ref/forms/fields/#django.forms.ImageField
+            >
+#### Create models.py
+
+            https://github.com/django/django/tree/master/django/db/models
 
             Admin, Signals & Forms Part 1
             Add to admin.py first import the order and OrderLineItem models - check it out in the admin on site. Create signals.py in the same level as models.py in checkout. Update the apps.py in checkout. Then add . and commit changes.

@@ -72,6 +72,14 @@
 1.          *view* to render this template so let's head into **views.py*
                         And define an index view.
                         Which will simply render the index template.
-  
+1.          *class inheritance* = it's going to be very important as you progress
+            in your understanding of python and object-oriented programming in general.
+             - remember that if you need functionality *from one class to be available in another*.
+            All you need to do is inherit the one you need.
+            inherit all the base functionality from the built-in Django model class. 
+            -  Built-in Django fields called a char field. Example below:
+              name = models.Charfield() = has characters or text in it.  
+              done = boolean.Field() =    true or false.    So models.boolean field
+                
 
 [![Build Status](https://travis-ci.com/SOliv1/ms-4-kuk-marketing.svg?branch=master)](https://travis-ci.com/SOliv1/ms-4-kuk-marketing)

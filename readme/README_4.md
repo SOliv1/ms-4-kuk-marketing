@@ -57,32 +57,36 @@ Use the “q” key to quit Less.
 ## CREDits and  ACKNOWLEDGEMENTS  (Other website acknowledgemnts)       
 1.  The whole website code was copied from conception to completion and NOT Cloned( as a whole).   Each page was copied and modified to suit the purposes of my website, 
     from the *Code Institue(C. I.) Fullstack final e-commerce website*.
-    Other ideas and layouts came from my previous milestone websites Cook Corner and Procol Harum which in turn were based on the excellent C. I. mini projects Thorin and Company and Putting it altogether mini projects.
+    Other ideas and layouts came from my previous milestones:-
+     Cook Corner(3) 
+     and 
+     Procol Harum(1) which in turn were also based on the excellent C. I. mini projects and websites which I acknowledge in  my previous merits and acknowledgements.
+     Thorin and Company and 
+     Putting it altogether mini projects.
+
 ### ACKNOWLEDGEMENTS and all  Credits go to *ckz8780 Chris Zielinski* who created the excellent *Boutique Ado Website*.
-        Most of the products are taken from the C.I. dataset which originates from https://www.kaggle.com/  and modified to suit the purpose of this website.  
+1.      Most of the products are taken from the C.I. dataset which originates from https://www.kaggle.com/  and modified to suit the purpose of this website.  
         I do not claim to make the code from this website my own. But I did build this website from conception to completion in an effort to understand the process more clearly.
         Any intention to pass off any code as my own was and is purely unintentional.
-1.    Products and fixtures credits images 'Tailor Brands https://studio.tailorbrands.com/ : 
+1.      The Slack Community for any questions queries and for helping out whenever I need it.
+1.      Products and fixtures credits images 'Tailor Brands https://studio.tailorbrands.com/ : 
         *Brand-book-1_VvE5VhU.webp*, *Business-deck-1-1 (1).webp*, *Business-deck-1-1 (1).webp* 
         Also branding and marketing ideas are based the Tailor Brands website.
 1.      New Products all credits go to: Cool wine accesories and branding image and copied text credits from https://www.igopromo.co.uk/
 1.      New Products all credits go to: https://www.igopromo.co.uk/inspiration-pages/sustainable-products/bandana-rpet-multi-functional-scarf-all-over-printing/p4348-master    
-1.  Other website Ideas and inspiration - https://www.walkeragency.co.uk/work
-1. All the excellent *Code Institute Student Care Team* who cheerfully assisted me and encouraged me to keep going even when I felt like giving up.
-1.  All the fantastic tutors who were always there to support me.  Their assistance was *invaluable*.
-
-    ### font stories  
-1.   
-1.       
+1.      Other website Ideas and inspiration - https://www.walkeragency.co.uk/workThan
+1.      The fantastic tutors for their unvaluable assistance and 
+1.      Student Care for being so encouraging when I felt like giving up at times.
+1.      Finally my Family deserve a mention for supporting me whilst I did this course and for that I thank you for being there.       
 1.  
-1.      
-
-## Product app
+1.    * Product app Tutor suggestions from support Tutor*
 1.     *Given to me by Kevin at C.I. tutor support* 
 1.   The easiest fix would be to empty your DB on Heroku: https://stackoverflow.com/questions/4820549/how-to-empty-a-heroku-database
 Then export the products from your local project to a fixtures file (Django can create the JSON files automatically for you):
-python manage.py dumpdata products.product --indent 4              
-1.      
+python manage.py dumpdata products.product --indent 4 
+        Also django documentation:             
+1.      django documentation: creating forms for the database:
+        https://docs.djangoproject.com/en/dev/topics/forms/modelforms/#overriding-the-default-fields
 1.      
 1.                     
 1.  

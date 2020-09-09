@@ -18,4 +18,5 @@ urlpatterns = [
          views.web_development, name='web_development'),
     path('services/digital_marketing',
          views.digital_marketing, name='digital_marketing'),
+    path('services/calculator', views.calculator, name='calculator')
 ]
