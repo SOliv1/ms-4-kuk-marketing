@@ -68,8 +68,3 @@ def digital_marketing(request):
     """ A view to digital marketing page """
 
     return render(request, 'services/digital_marketing.html')
-<<<<<<< HEAD
-
-=======
->>>>>>> 4c4b2d4dfb07fd98109622a8565a7e4f4258c8b8
-
