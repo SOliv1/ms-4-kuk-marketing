@@ -55,6 +55,26 @@ Less - “less” is a pager program that may automatically open on the command 
 You can use the arrow keys or the page up/down keys to scroll around in Less. You can also use the “/” key to search for a specific part of the text and the “n” key to go to the next match.
 Use the “q” key to quit Less.
 >
+#### Explantion given to me when I queried steps in a procedure that I knew off by heart....
+ .... 
+ and still encounterd issues in my accounts login programatic error 
+ 
+ >*ProgrammingError at /accounts/login/
+relation "django_site" does not exist
+LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+                                                             ^
+Request Method:	GET
+Request URL:	https://kuk-milestone-4.herokuapp.com/accounts/login/
+Django Version:	3.1
+Exception Type:	ProgrammingError
+Exception Value:	
+relation "django_site" does not exist
+>LINE 1: ..."django_site"."domain", "django_site"."name" FROM "django_si...
+-----
+"So the simplified explanation is that the secret key which is used the encrypt and decrypt data had been changed between migrations and the database getting updated. So data being sent to and from the database were different than expected.  Django stores a whole bunch of details about itself in the database and between the keys this ultimately got django tripping up on itself because it thought it was getting information for 2 different websites  (which can cause bigger issues, we got lucky).  
+So we need to keep the secret keys the same.  The only time we should change the secret keys is once.  And that is if we are changing connecting to a different database.  
+Once sorted with the issue in Django so the keys were correct, we then reset the database to a blank clean one."   Something to remember in future. 
+*Credit goes to Stephen - Tutor at C. I. Thank you.*
 
    1.  
    1.   `cp - r` means copy recursively

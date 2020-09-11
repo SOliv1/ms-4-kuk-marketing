@@ -8,7 +8,7 @@ html {
     
         
 body {
-    background: url('/media/homepage_background.png') no-repeat center center fixed;
+    background: url('/media/background_home.jpeg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
