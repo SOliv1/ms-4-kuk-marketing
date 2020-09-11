@@ -8,11 +8,7 @@ class Category(models.Model):
 
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254, null=True, blank=True)
-<<<<<<< HEAD
     # Inherits class's name attribute i.e. form name put into our form.
-=======
-    
->>>>>>> 758975207df4d7edb7fb1449854f4b7b26a6af0c
     def __str__(self):
         return self.name
 

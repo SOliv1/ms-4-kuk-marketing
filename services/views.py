@@ -68,12 +68,9 @@ def digital_marketing(request):
     """ A view to digital marketing page """
 
     return render(request, 'services/digital_marketing.html')
-<<<<<<< HEAD
-=======
 
 
 def calculator(request):
     """ A view to show a calculator page """
 
     return render(request, 'services/calculator.html')
->>>>>>> 758975207df4d7edb7fb1449854f4b7b26a6af0c
