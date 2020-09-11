@@ -26,7 +26,7 @@
                 <div>
                     <a class="dropdown-item" href="{% url 'our_services' %}">Our Services</a>
                     <a class="dropdown-item" href="{% url 'brands' %}">Shine Your Business</a>
-                    <a class="dropdown-item" href="{% url 'contact' %}">contact</a>
+                    <a class="dropdown-item" href="{% url 'contact' %}">Contact</a>
                 </div>
             </div>
         </li>
@@ -38,7 +38,11 @@
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
                 <a href="{% url 'products' %}?category=bed_bath" class="dropdown-item">Lifestyle</a>
                 <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Kitchen &amp Dining;</a>
+<<<<<<< HEAD
                 <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">New Arrivals</a>
+=======
+                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">New Products</a>
+>>>>>>> 758975207df4d7edb7fb1449854f4b7b26a6af0c
             </div> 
         </li>
 
@@ -66,6 +70,14 @@
                 <a class="dropdown-item" href="{% url 'about' %}">About Us</a>
                 <a class="dropdown-item" href="{% url 'our_brands' %}">Our Brands</a>
                 <a class="dropdown-item" href="{% url 'contact_us' %}">Contact Us</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Calculator
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="services-link">
+                <a class="dropdown-item" href="{% url 'calculator' %}">Calculator</a>
             </div>
         </li>
     </ul>

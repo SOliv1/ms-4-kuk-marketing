@@ -82,6 +82,9 @@
               name = models.Charfield() = has characters or text in it.  
               done = boolean.Field() =    true or false.    So models.boolean field
                 
+<<<<<<< HEAD
                  
+=======
+>>>>>>> 758975207df4d7edb7fb1449854f4b7b26a6af0c
 
 [![Build Status](https://travis-ci.com/SOliv1/ms-4-kuk-marketing.svg?branch=master)](https://travis-ci.com/SOliv1/ms-4-kuk-marketing)
