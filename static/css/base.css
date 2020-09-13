@@ -8,9 +8,9 @@ html {
     
         
 body {
-    background: url('/media/background_home.jpeg') no-repeat center center fixed;
+    background: url('/media/homebackground_cropped(2).jpeg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(100vh - 174px);
     color: #555;
     font-family: 'Montserrat';
 }
