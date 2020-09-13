@@ -12,6 +12,83 @@ margin {
     bottom:0;
    
 }
+<<<<<<< HEAD
+/*--- dropdown-menu styles ---*/
+
+.navbar-nav .mr-auto ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+.active .nav-item .mr-2 li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/*--  Change the link color on hover -------*/
+
+.nav-link li a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: #fff;
+}
+
+
+/*--  Container-wrappers   ----*/
+
+.container-wrapper {
+    background-color: #fff;
+}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: #fff;
+}
+
+.container-wrapper--pale {
+    background-color: #fbe7e2;
+}
+
+/*-- Image Containers - creates a scroll flexible background ------*/
+
+.callout-container  {
+    height: 100vh;
+    background: url("../earth.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.media img {
+    height: 150px;
+    object-fit: contain;
+    min-height: 100%;
+    max-height: none;
+    border-radius: 15% 15% 15% 15% / 10% 10% 10% 10%;
+}
+=======
+>>>>>>> 758975207df4d7edb7fb1449854f4b7b26a6af0c
 
 
 /*-- Content-container --*/

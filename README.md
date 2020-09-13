@@ -1,6 +1,7 @@
   1.  pip3 install django
     pip3 install autopep8 (for white space and gr8 for indentations etc)
-1.  django-admin startproject kuk_marketing .
+1.  django-admin startproject kuk_marketing 
+    To add a boilerplate: type html and a list and basic boilerplate for an html5 file.  gitpod shortcut or press arrow up then select ! press enter to create boilerplate.
 1.  python3 manage.py migrate
 1.  python3 manage.py runserver
 1.  touch .gitignore
@@ -34,7 +35,7 @@
    1.   cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/*
             
             This copies or the allauth templates in the packages so we can style them at will.
-1.  Getbootstrap.com > go to documentation and copy the starter template 
+1.      Getbootstrap.com > go to documentation and copy the starter template 
     
     ### font stories  
     *About Roboto
@@ -81,5 +82,6 @@
               name = models.Charfield() = has characters or text in it.  
               done = boolean.Field() =    true or false.    So models.boolean field
                 
+                 
 
 [![Build Status](https://travis-ci.com/SOliv1/ms-4-kuk-marketing.svg?branch=master)](https://travis-ci.com/SOliv1/ms-4-kuk-marketing)

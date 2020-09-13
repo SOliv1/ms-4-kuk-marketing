@@ -47,13 +47,13 @@
                                 Stop server and commit the changes "add home app and templates"
 1.          set up the *products app* - load in some products.
                                 start by copying in the collection of product images.
-                                We pruned these from a data set at kaggle.com which is a great provider of
+                                Pruned these from a data set at `kaggle.com` which is a great provider of
                                 free sample data for use in all sorts of industries.
                                 create the products app using python3 manage.py *startapp products^
                                 *python3 manage.py startapp products*
                                 add this app to installed apps in settings.py
                                 make a folder called fixtures inside the products app
-                                drag and drop a couple of JSON fixture files in here
+                                drag and drop a couple of JSON fixture files in there,
                                 one for categories and one for products
             python3 manage.py startapp products
 ## Add Products and fixtures
@@ -62,7 +62,7 @@
 
                                 Add categories and products json https://jsonformatter.org/ to validate
 
-                                Go to models.py and add code There - python3 manage.py makemigrations --dry-r dry run
+                                Go to models.py and add code There - python3 manage.py makemigrations --dry run
 
                                 pip3 install pillow
                                 `python -m pip install Pillow`
@@ -92,7 +92,7 @@
                                 python3 manage.py runserver 
 
 ##  Product Details
-1.          starting with main nav.html let's add url products for this link. And then we'll add the same here on the shop now button in index.html. To create the product details page we need a new view which will take the product id as a parameter and return the template including the product, this will be almost identical to the all products view so I'll copy that as a base.
+1.                  starting with main nav.html let's add url products for this link. And then we'll add the same here on the shop now button in index.html. To create the product details page we need a new view which will take the product id as a parameter and return the template including the product, this will be almost identical to the all products view so I'll copy that as a base.
                     Shopping cart
                     python3 manage.py startapp bag
 
@@ -136,8 +136,11 @@
 
                     from products.models import Product
 
-            kdbb = ['kitchen_dining', 'bed_bath'] clothes = Product.objects.exclude(category__name__in=kdbb) clothes.count() for item in clothes: item.has_sizes = True item.save()
-
+            kdbb = ['kitchen_dining', 'bed_bath'] clothes = Product.objects.exclude(category__name__in=kdbb) clothes.count() 
+            for item in clothes: 
+            item.has_sizes = True 
+            item.save()
+            press enter again
             Product.objects.filter(has_sizes = True)
 
             Product.objects.filter(has_sizes = True).count()

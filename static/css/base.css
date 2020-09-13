@@ -8,7 +8,11 @@ html {
     
         
 body {
+<<<<<<< HEAD
     background: url('/media/homebackground_cropped(2).jpeg') no-repeat center center fixed;
+=======
+    background: url('/media/annotation2020-09.jpg') no-repeat center center fixed;
+>>>>>>> faf1b3e8ebcb060107769e4138dba3dfd62b015a
     background-size: cover;
     height: calc(100vh - 174px);
     color: #555;
