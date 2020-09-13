@@ -140,7 +140,7 @@ I clone one of my Flask mini projects to deploy locally on GitHub desktop.
 On GitHub, I navigate to the main page of the repository.
 Under my repository name, I click to clone my repository in Desktop. I follow the prompts in GitHub Desktop to complete the clone.  
 
-###  Basic set up for my CookCorner project
+###  Basic set up for my project
 *(see *CRUD functionality notes further down page*)
 pip3 install flask
 pip3 install flask_pymongo
