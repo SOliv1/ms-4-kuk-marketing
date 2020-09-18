@@ -33,7 +33,7 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
+.buy-now-button {
     background: black;
     color: white;
     min-width: 260px;
@@ -75,6 +75,13 @@ body {
     border: 1px solid black !important;
 }
 
+.block-divider {
+    width: 99px;
+    height: 5px;
+    border: 0;
+    background-color: #000;
+}
+
 .bg-black {
     background: #000 !important;
 }
@@ -85,7 +92,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: transparent;
 	z-index: -1;
 }
 
@@ -314,7 +321,7 @@ input[name='q']::placeholder {
         font-size: 1rem;
     }
 
-    #delivery-banner h4 {
+    #divider-banner h4 {
         font-size: .9rem;
     }
 

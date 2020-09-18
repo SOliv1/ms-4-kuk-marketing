@@ -1,7 +1,8 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.shortcuts import render, redirect, get_object_or_404
+# from .services import forms
 
 
-""" view-link to return our services menu on main-nav bar"""
+"""view-link to return our services menu on main-nav bar"""
 
 
 def our_services(request):
@@ -15,14 +16,10 @@ def brands(request):
 
     return render(request, 'services/brands.html')
 
-
 def contact(request):
     """ A view to contact page """
 
     return render(request, 'services/contact.html')
-
-
-""" view-link to return about us menu on main-nav bar"""
 
 
 def about(request):
@@ -37,13 +34,12 @@ def our_brands(request):
     return render(request, 'services/our_brands.html')
 
 
-def contact_us(request):
+def contact_us(request, methods=["GET", "POST"]):
     """ A view to contact us page """
 
     return render(request, 'services/contact_us.html')
 
-
-""" view-link to return about us menu on main-nav bar"""
+    """ view-link to return about us menu on main-nav bar"""
 
 
 def graphic_design(request):

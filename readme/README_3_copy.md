@@ -93,4 +93,8 @@
         test card spinner:- 4000002500003155
     -   to test the integrations for stripe payments and the spinner overlay.        
   
-         
+## Services app
+
+### Contact html 
+Forms to send to the backend - The GET method-used for retrieving data from the server. 
+                             - The POST method used for sending data to the server.
