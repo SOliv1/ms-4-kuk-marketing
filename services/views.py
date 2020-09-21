@@ -16,11 +16,6 @@ def brands(request):
 
     return render(request, 'services/brands.html')
 
-def contact(request):
-    """ A view to contact page """
-
-    return render(request, 'services/contact.html')
-
 
 def about(request):
     """ view to return the about page """
@@ -34,10 +29,11 @@ def our_brands(request):
     return render(request, 'services/our_brands.html')
 
 
-def contact_us(request, methods=["GET", "POST"]):
+def contact(request, methods=["GET", "POST"]):
     """ A view to contact us page """
+    request.GET
 
-    return render(request, 'services/contact_us.html')
+    return render(request, 'services/contact.html')
 
     """ view-link to return about us menu on main-nav bar"""
 

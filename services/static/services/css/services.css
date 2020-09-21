@@ -1,17 +1,99 @@
 /* services app and contact forms */
+/*@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700,900) */
 
-.container, header-container-fluid {
-    height: 100vh;
-    background: url("../media/shine-bus.jpg") no-repeat bottom right fixed;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-    position: relative;
+
+/* Brands */
+
+.content-container-brands.{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.content-container-brands {
+    padding-top: 65px;
+    padding-bottom: 75px;
+    margin: 35px;
+}
+
+/* services/about-Page -------------------------------------------------- */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color:#000;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead {
+    color: #000;
+    margin: 25px 0;
+}
+
+.jumbotron medium {
+    font-size: 60%;
+    font-style: italic;
+    color: #000; 
 }
 
 
-.label, contact-form {
-    display: inline-block;
-    margin-bottom: .5rem;
-    font-weight: 700;
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
 }
+
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+/*-- Image-background --*/
+
+.col-md-5 img {
+    width: 100%;
+}
+
+.bg-transparent {
+background-color: transparent;
+} 
+
+/*-- containers --*/
+
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.content-container {
+    padding-top: 65px;
+    padding-bottom: 75px;
+    margin: 35px;
+}
+
+.container-fluid .about-container {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*--- block-divider styles ---*/
+
+.block-divider--bg-black {
+    color: #000;
+}
+
+

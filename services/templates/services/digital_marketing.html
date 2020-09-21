@@ -2,40 +2,19 @@
 {% load static %}
 
 {% block page_header %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black, main-header.style">
-                    Digital Marketing
-                </h1>
-            </div>
-        </div>
-    </div>
-{% endblock %}
-
-{% block content %}
-    <div class="container header-container">
+<div class="container header-container">
         <div class="row">
             <div class="col"></div>
         </div>
     </div>
-    <div class="row">
-        <h2>Digital Marketning</h2>
+{% endblock %}
+{% block content %}
+    <div class="card bg-dark text-white">
+            <img class="card-img-fluid rounded" src="{{'static  images/shine_bus.jpg' }}" alt="{{ shine-image }}">                                        
+            <div class="card-img-overlay">
+            <h5 class="card-title">Digital Shine/h5>
+            <p class="card-text">Talk to us to find out how we can help</p>
+            <p class="card-text">Shine your marketing business today</p>
+        </div>
     </div>
-    <div>
-        <div class = "lead">What we do  - we want to shine in a fast pace world. 
-        </div> 
-            <div>
-                <p>We thrive on bringing out the best results for our clients
-                   and positively blaze on the internet, social media and beyond!
-                </p>
-            </div>    
-                <div class= "row">
-                    <div class= "col">
-                        <h3>Contact us now to discuss your requirements</h3>
-                    </div>
-                </div> 
-            </div>
-        <div>
-    </div>    
 {% endblock %}
