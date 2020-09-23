@@ -92,8 +92,8 @@ body {
 	width: 100%;
 	top: 0;
 	left: 0;
-	position: fixed;
-	background: transparent;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.1);
 	z-index: -1;
 }
 
@@ -270,7 +270,7 @@ input[name='q']::placeholder {
 
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
-    border-color: #dc3545;
+    border-color: rgb(204, 0, 0);
 }
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
@@ -303,6 +303,7 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
+        background-color: 
     }
 
     .display-4.logo-font.text-black {
@@ -345,17 +346,17 @@ input[name='q']::placeholder {
 /* About-Services-Jumbotron */
 
 .jumbotron-bg {
-    background-color: transparent;
+    background-color:transparent;
 }
 
-.jumbotron h1 {
+.jumbotron-h1 {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
 .jumbotron .lead {
-    color: #d0d0d0
+    color: #d0d0d0;
     margin: 25px 0;
 }
 
@@ -375,7 +376,7 @@ input[name='q']::placeholder {
 }
 
 .block-divider--orange {
-    background-color: #f05f40;
+    background-color: rgb(204, 0, 0);
 }
 
 .block-divider--white {
@@ -404,7 +405,7 @@ input[name='q']::placeholder {
 
 .btn--red {
     color: black;
-    background-color: #f05f40;
+    background-color:transparent;
     border-color: #f05f40;
 }
 
@@ -412,7 +413,7 @@ input[name='q']::placeholder {
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
-    background-color: #df4929;
-    border-color: #df4929;
+    background-color:rgb(204, 0, 0);
+    border-color:rgb(204, 0, 0);
     color: white;
 }
