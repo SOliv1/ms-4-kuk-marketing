@@ -1,3 +1,5 @@
+    * https://validator.w3.org/ *
+  
   1.  pip3 install django
     pip3 install autopep8 (for white space and gr8 for indentations etc)
 1.  django-admin startproject kuk_marketing 

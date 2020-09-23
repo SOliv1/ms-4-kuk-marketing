@@ -10,11 +10,13 @@
 {% endblock %}
 {% block content %}
     <div class="card bg-dark text-white">
-            <img class="card-img-fluid rounded" src="{{'static  images/shine_bus.jpg' }}" alt="{{ shine-image }}">                                        
+        <div>
+            <img class="card-img-fluid rounded" src="{% static "images/shine_bus.jpg" %}" alt="shine-image ">                                        
             <div class="card-img-overlay">
-            <h5 class="card-title">Digital Shine/h5>
-            <p class="card-text">Talk to us to find out how we can help</p>
-            <p class="card-text">Shine your marketing business today</p>
+                <h5 class="card-title">Digital Shine/h5>
+                <p class="card-text">Talk to us to find out how we can help</p>
+                <p class="card-text">Shine your marketing business today</p>         
+            </div>
         </div>
-    </div>
+    </div>    
 {% endblock %}

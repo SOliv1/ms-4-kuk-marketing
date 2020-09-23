@@ -1,3 +1,4 @@
+/* all css code copied and modified for my own project from boutique-ado fullstack project */
 
 /* @import url("https://fonts.googleapis.com/css?family=Montserrat:0&display=swap" */
 
@@ -148,7 +149,7 @@ input[name='q']::placeholder {
     right: 36px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
+/* all copied from boutique-ado Convenience classes - colors copied from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
@@ -199,7 +200,7 @@ input[name='q']::placeholder {
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
+    margin-top: 5.00 rem; /* mt-4 */
     color: #6c757d; /* text-secondary */
 }
 

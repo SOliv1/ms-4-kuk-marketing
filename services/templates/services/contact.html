@@ -2,7 +2,7 @@
 {% load static %}
 {% load i18n %}
 
-{% load account socialaccount %}
+
 
 {% block page-header %}
     <div class="container header-container">
@@ -18,84 +18,53 @@
 
 
 {% block content %}
-    <div class="container header-container">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
+<div class="container header-container">
+    <div class="card">
+        <div class="card-body">
+            <div class="row h-100">
+                <div class="col-7 col-md-6 my-auto">
                 <h4 class="display-4 logo-font text-black, main-header.style">
                    Contact Us
                 </h4>
-                 <!-- form requirements-start-->
+        
                 <form method="POST" name="sentRequirements" id="contactForm">
-                    <div class="control-group-requirements">
+                    <div class="control-group-requirements, input-group input-group-lg" >
+         
                         <div class="form-group-requirements floating-label-form-group controls">
-                            <label>Name</label>
-                            <input type="text" class="form-control" placeholder="Name" name="name" id="name" required data-validation-required-requirements="Please enter your name.">
-                            <p class="help-block text-danger"></p>
+                                <label>Name</label> 
+                                <input type="text" class="form-control" placeholder="Name" name="name" id="name"="Please enter your name.">
+                                <p class="help-block text-danger"></p>
                         </div>
-                    </div>
-                    <div class="control-group>
-                        <div class=form-group-requirements floating-label-form-group controls">
-                            <label for="contactFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="contactFormControlInput1" placeholder="Email Address" name="email" id="email" required data-validation-required-message="Please enter email address.">
-                            <p class="help-block text-danger"></p>>
+                        <div class="control-group>
+                            <div class=form-group-requirements floating-label-form-group controls">
+                                <label for="contactFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="contactFormControlInput1" placeholder="Email Address" name="email" id="email"="Please enter an email address.">
+                                <p class="help-block text-danger"></p>
+                            </div> 
+                  	        <div class="control-group-requirements">
+                            <label for="contactFormControlSelect1">Select a Package</label>
+                            <select class="form-control" id="contactFormControlSelect1"> 
+                                <option> Premuim Marketing(incudes website development</option>
+                                <option> Branding and Logos</option>
+                                <option> Graphic Design</option>
+                                <option> Products Only</option>
+                                <option> Advertising</option>
+                            </select>
                         </div>
-                    </div>    
-                  	<div class="control-group-requirements">
-                        <label for="contactFormControlSelect1">Select a Package</label>
-                        <select class="form-control" id="contactFormControlSelect1">
-                            <option> Premuim Marketing(incudes website development</option>
-                            <option> Branding and Logos</option>
-                            <option> Graphic Design</option>
-                            <option> Products Only</option>
-                            <option> Advertising</option>
-                        </select>
-                    </div>
                     <div class="control-group-requirements">
-                            <label for="contactFormControlTextarea rows="1"> Please enter your requirements and let us choose the best fit</label>
-                            <textarea class="form-control" id="contactFormControlTextarea1" rows="5"></textarea>
+                        <label for="contactFormControlTextarea rows="1">Please enter your requirements and let us choose the best fit</label>
+                        <textarea class="form-control" id="contactFormControlTextarea1" rows="8"></textarea>
                         <br>
                         <div id="requirements-success">
                             <div class="form-group-requirements">
                             <button type="submit" class="btn btn-black" id="sendRequirementsButton">Submit here</button>
                             </div>
                         </div>
-                        {% block head_title %}{% trans "Sign In" %}
-                        {% block inner_content %}
-                        <hr>
-                        <h2 class="logo-font mb-4">{% trans "Sign In" %}</h2>
-                        <hr>
-                    {% get_providers as socialaccount_providers %}
-
-                    {% if socialaccount_providers %}
-                    <p>{% blocktrans with site.name as site_name %}Please sign in with one
-                        of your existing third party accounts. Or, <a href="{{ signup_url }}">sign up</a>
-                        for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
-
-                    <div class="socialaccount_ballot">
-                        <ul class="socialaccount_providers">
-                        {% include "socialaccount/snippets/provider_list.html" with process="login" %}
-                        </ul>
-                        <div class="login-or">{% trans 'or' %}</div>
                     </div>
-                {% include "socialaccount/snippets/login_extra.html" %}
-
-                {% else %}
-                <p>{% blocktrans %}If you have not created an account yet, then please
-                <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
-                {% endif %}
-
-                <form class="login" method="POST" action="{% url 'account_login' %}">
                     {% csrf_token %}
                     {{ form|crispy }}
-                    {% if redirect_field_value %}
-                    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-                    {% endif %}
-                    <a class="btn btn-outline-black rounded-0" href="{% url 'home' %}">Home</a>
-                        <button class="primaryAction" type="submit">{% trans "Sign In" %}</button>
-                        <p class="mt-2">
-                    <a class="button secondaryAction" href="{% url 'account_reset_password' %}">{% trans "Forgot Password?" %}</a>
-                </p>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
 {% endblock %}
