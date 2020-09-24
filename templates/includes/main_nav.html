@@ -26,7 +26,7 @@
                 <div>
                     <a class="dropdown-item" href="{% url 'our_services' %}">Our Services</a>
                     <a class="dropdown-item" href="{% url 'brands' %}">Shine Your Business</a>
-                    <a class="dropdown-item" href="{% url 'contact' %}">Contact</a>
+                    <a class="dropdown-item" href="{% url 'contact' %}">Contact Us</a>
                 </div>
             </div>
         </li>
@@ -38,18 +38,16 @@
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
                 <a href="{% url 'products' %}?category=bed_bath" class="dropdown-item">Lifestyle</a>
                 <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Kitchen &amp Dining;</a>
-                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">New Products</a>
+                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining,new_products" class="dropdown-item">New Products</a>
             </div> 
         </li>
-
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black" href="#" id="services-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Expertise
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="services-link">
+                <a class="dropdown-item" href="{% url 'our_brands' %}">Our Brands</a>
                 <a class="dropdown-item" href="{% url 'graphic_design' %}">Graphic Design</a>
-                <a class="dropdown-item" href="{% url 'web_design' %}">Website Design</a>
-                <a class="dropdown-item" href="{% url 'web_development' %}">Website Development</a>
                 <a class="dropdown-item" href="{% url 'digital_marketing' %}">Digital Marketing</a>
             </div>
         </li>
@@ -63,18 +61,7 @@
                 About Us
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="services-link">
-                <a class="dropdown-item" href="{% url 'about' %}">About Us</a>
-                <a class="dropdown-item" href="{% url 'our_brands' %}">Our Brands</a>
-            </div>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Calculator
-            </a>
-                <i class="fa fa-calculator" style="font-size:36px"></i>
-            <div class="dropdown-menu border-0" aria-labelledby="services-link">
-                <a class="dropdown-item" href="{% url 'calculator' %}">Calculator
-                </a>
+                <a class="dropdown-item" href="{% url 'about' %}">About Us</a>  
             </div>
         </li>
     </ul>
