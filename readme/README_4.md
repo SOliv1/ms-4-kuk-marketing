@@ -91,6 +91,12 @@ Once sorted with the issue in Django so the keys were correct, we then reset the
      Thorin and Company and 
      Putting it altogether mini projects.
 
+     And product information:
+     Boutique Ado and Kagglec.om
+     And  `http://Spectator.co.uk` and colour red touches and buttons-colour-scheme: 
+
+     
+
 ### ACKNOWLEDGEMENTS and all  Credits go to *ckz8780 Chris Zielinski* who created the excellent *Boutique Ado Website*.
 1.      Most of the products are taken from the C.I. dataset which originates from https://www.kaggle.com/  and modified to suit the purpose of this website.  
         I do not claim to make the code from this website my own. But I did build this website from conception to completion in an effort to understand the process more clearly.
@@ -108,9 +114,9 @@ Once sorted with the issue in Django so the keys were correct, we then reset the
 1.  
 1.    * Product app Tutor suggestions from support Tutor*
 1.     *Given to me by Kevin at C.I. tutor support* 
-1.   The easiest fix would be to empty your DB on Heroku: https://stackoverflow.com/questions/4820549/how-to-empty-a-heroku-database
-Then export the products from your local project to a fixtures file (Django can create the JSON files automatically for you):
-python manage.py dumpdata products.product --indent 4 
+1.      The easiest fix would be to empty your DB on Heroku: https://stackoverflow.com/questions/4820549/how-to-empty-a-heroku-database
+        Then export the products from your local project to a fixtures file (Django can create the JSON files automatically for you):
+        python manage.py dumpdata products.product --indent 4 
         Also django documentation:             
 1.      django documentation: creating forms for the database:
         https://docs.djangoproject.com/en/dev/topics/forms/modelforms/#overriding-the-default-fields
