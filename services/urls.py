@@ -13,5 +13,5 @@ urlpatterns = [
          views.graphic_design, name='graphic_design'),
     path('services/digital_marketing',
          views.digital_marketing, name='digital_marketing'),
-    
+
 ]

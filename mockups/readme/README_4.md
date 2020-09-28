@@ -75,10 +75,18 @@ relation "django_site" does not exist
 So we need to keep the secret keys the same.  The only time we should change the secret keys is once.  And that is if we are changing connecting to a different database.  
 Once sorted with the issue in Django so the keys were correct, we then reset the database to a blank clean one."   Something to remember in future. 
 *Credit goes to Stephen - Tutor at C. I. Thank you.*
+###### Reset my squlite database
+   1. I had to reset my local squlite database at one point due to migrations issues so I:
+        need to delete the db.sqlite3 file locally in the root level of my project, 
+        then I had to go into each of my apps that have a migrations folder, and delete all of the files inside the migrations folder, except for the __init__.py file.
+            I then had to run the two commands again:
+            `python3 manage.py makemigrations`
+            `python3 manage.py migrate`
+        This should reset my database. 
 
-   1.  
    1.   `cp - r` means copy recursively
    1.   cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/*
+
 #   CREDITS AND ACKNOWLEDGEMENTS
 
 ## CREDits and  ACKNOWLEDGEMENTS  (Other website acknowledgemnts)       
@@ -93,7 +101,8 @@ Once sorted with the issue in Django so the keys were correct, we then reset the
 
      And product information:
      Boutique Ado and Kagglec.om
-     And  `http://Spectator.co.uk` and colour red touches and buttons-colour-scheme: 
+     And  `http://Spectator.co.uk` 
+     and colour red touches and buttons-colour-scheme: 
 
      
 
