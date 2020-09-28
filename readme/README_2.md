@@ -6,8 +6,8 @@
             Add to installed apps in settings.py mkdir products/fixtures
 
             Add categories and products json https://jsonformatter.org/ to validate
-
-            Go to models.py and add code There - python3 manage.py makemigrations --dry-run
+            -Required fields are name; description; price.  Everything else is optional.
+            -Go to models.py and add code There - python3 manage.py makemigrations --dry-run
 
             pip3 install pillow or 
             python -m pip install pillow
