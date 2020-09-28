@@ -19,86 +19,90 @@
 ### README  Further information and alternative view via LINK HERE
   README.md https://1drv.ms/w/s!AgMQTPoqZgRAjBzcw6gYVD7gImdt?e=5XbCvm
   
-## UX Introduction 
-A dynamic website where keen cooks can post recipes and exchange recipe ideas with other cooks.  This website celebrates the tradition of great British craftsmanship and British cooking. 
-Mason Cash originated in a pottery operating at Church Gresley in the heart of the English ceramic industry in 1800.
-Two hundred years later, 
->mixing practicality with elegance
->is the mantra for this distinctive brand.  
-The website is a B2C emotion driven and appeals to the benefits of users by encouraging interaction and engagement through the exchange and addition of favourite recipes on the databse.  This website ideally is a logon and password encrypted one. However, that is left for me to implement later. My focus is on the CRUD functionality.
-Bakeware, untensils and beautiful mixing bowls in various colours are available and ready to use by those who appreciate baking and cooking only with the finest!
+## UX Introduction - Platform for B2B lead 
+A website where consumers can purchase with a budget in mind either upgrading and / or investing in a website package.  
+This website celebrates the user's ability to evaluate and purchase products and services with a view to capture an online audience and ultimately promote and retain loyalty.
+Encourage and promote the user update / upgrade in order captivate a target audience on desktop, mobile, and tablet. 
+Drive leads to promote business awareness via website online-packages; purchase branded and non branded products to target audience.
+The website is a B2C emotion driven and appeals to the benefits of users by encouraging interaction and engagement via contact forms with requirements dropdown box.
+Ideal additions to this website: a gallery; social-media; newsletters; Skype, Zoom and other live streaming for on-line interaction between consumers and marketeers.
+Join a community that drives sales, marketing, and product innovation and trendsetters driving growth on the internet.  
+Translate business growth into sales and loyalty.
 
-This website features the iconic mixing bowls which are made from high quality, chip-resistant earthenware making them heavy enough to stand when mixing, yet light enough to hold comfortably in one arm.
-The Oven and Bakeware comes in a range of sturdy and durable materials, from cane design bowls, gleaming white linea ovenware, oval and round to rectangular dishes; and finally the warmth of high quality terracotta and porous dishes which absorb moisture from the dough in order to produce a perfect crust every time.  The utensils has been designed for multi-functionality and comfort. Each piece is designed for multi-purpose functionality.  There are two innovative ranges in beechwood and stainless Steel range which ensures that all cooks needs are met.  The recipes are mainly British and in the spirit of well loved recipes old and new, tried and true; this website has been developed.
 #### Ideal Customer:
-* wants to buy the finest and iconic utensils and cookware. Enjoys cooking, experimenting.
-* discover and share new ideas and recipes with keen cooks.
+##### Target businesses:  
+* 'Start-Up business' operates on a budget and wants strategic direction.
+* 'Inspire An Audience' Those who want to invest in a fullstack premium package. 
+* 'Budget Aware' - Those who would like to upgrade to a package without fully investing in premium package.
 #### Visitors to this website are looking for:
-* good quality bowls and utensils to use in recipes in the simple to use database provided and   can be easily be used to **Create, add, edit, update and delete** by the user.
-* This website is a design for keen cooks to share recipes with others, by swapping ideas and building up a collection.  
-* Visitors have access to all the cook-ware they need via a link on the website to the finest British cookware *Mason Cash*  [Masoncash](https://www.masoncash.co.uk/products/mixing-bowls.html) when only the best will do.
-#### This website is best for:
-1. A new customer who wants to discover more about the useful implements and products that can be found on the website and buy directly with companies who speicalise in Mason Cash via links. This is in addition to promoting *Mason Cash* the Company, without having to leave the site.
-1. As a new visitor to the website I want to be able to navigate quickly and easkily.
+* Ideas that can be transformed into success for their startup business or keep on trend with what is driving growth sales via the internet.
+* This website is designed for those looking to translate their expertise into a viable proposition for their business and make it a reality.
+* Visitors can contact the website to discuss their objectives whether it be to build brand awareness, generate leads, or drive website traffic. The website designer can provide the format that is the `best fit`.
+1. A new customer who wants to discover more about and potentially buy the products on offer via the website to promote their business. A complete package for budget minded startup business.
+1. As a new visitor to the website I want to be able to navigate quickly and easily via the search box and can look up products by category / price / rating / name of product.
 1. As an interested visitor / customer I want to follow the activities of this website on social media.
-1. As an engaged visitor I want to return to the website and potentially purchase the products and find out what is new.  A contact    	  form and newsletter will be set up for this. 
+1. As an engaged customers I want to return to the website and potentially purchase the products and find out what else  is new and driving business success.  A contact form and newsletter will be set up for this. 
 1. Provide *User-stories adding to the website to encourage new and returning customers.
 
 
 ## User Stories:
-* As a customer, I want to be able to quickly look up the best products to use for my recipes, so that I can order via the website from the company. I want to experiement with the recipes: edit / delete / and update with my own versions of a particular recipe. I want to try them out on friends and family. Talk about inspiring recipes with other keen cooks, and add my own recipes  to the mix.  
-  *Happy Customer - I. Cook
+* As a customer, I want to be able to quickly look up the best products and services with a view to purchasing a complete website and branding startup package, so that I can order via the website from the company. 
+I want to experiement with my ideas and engage with the web-company to find what suits or as they say `the best fit`: 
+I want to edit / delete / and update with my own requriements by filling out the form and have them contact me with further information and ultimately purchase a suitable package to suit my budget. 
+**Happy Customer**
 
-* I love the look and feel of the website. It is very appealing and harmoniously set up.  I can find everything from the **Mason and Cash Company** here and I adore all things **British**.   The recipes are delicious. I relish trying them out and discussing with other likeminded members here. I love adding recipes to the website as I discover new dishes. A fullfilling hobby!
-  *Satisfied Customer - W. E. Bake
+* I love the look and feel of the website. It is clean and aesthetically simple to view and to use.  I can find my requirements from **KUKMarketing** and look forward to letting my `business shine!`
+  *Satisfied Client 
   
-* I love social media and am looking forward to sharing my recipes with other keen bloggers and social media aficionados! 
- *Love it - S. M. Butterfly
+* I like the website packages available and the opportuntity to come up with my requriements for the `best fit` for improving my current website. 
+ * **Looking to Shine**
  
-* What a pretty website! - so simple to use - I would like to be able to sort recipes and rate them. Looking forward to receiving   newsletters, trying all the mouthwatering dishes and sharing with my friends. 
-  *Can't wait  - B. Patience
+* I like the idea of buying products and services directly from the website - gettting the quoted price and ordering the products and services I want.  I can use a simple form to convey my requirements which will then be evaluated and then open up dialogue between KUKmarketing and myself the (potential)client. 
+  **Propspective Client**
   
-## CookCorner = Wireframes and Mockups:
+## KUKMarketing = Wireframes and Mockups:
 
-*Please follow the link below to view wireframes and Mockups*:
+*Please follow the link below to view README.md /wireframes and / Mockups*:
 
-[cookCorner](http://github.com/SOliv1/ms-cook-corner/tree/master/wireframes)
+[cookCorner](http://github.com/SOliv1/ms-4-kuk-marketing/tree/master/readme)
 
 			
-## Website & Database
-I chose for my project, to use and demonstrate *postgres* a powerful fullstack database together with AWS bucket S3 and IAM users sThis is recommended by C.I. in the course. It is featured in the rxcellent Boutique-Ado online project which I have copied directly and modified to suit my purposes.
-I figured the ideas on this website were so excellent, how can one improve! I therefore have copied most if not all except the 'Services App' which is my owm but once again inspired from other projects on the course;(see credits and acknowledgements at bottom of this page) from the Boutique Ado Fullstack full-functioning website,
-which I found most interesting.  The challenge is to be able to build the website exactly as it is done in the videos.  It is tricky but satisfying when finally completed.  I then repeated this website for my own purposes, building at each stage from conception to complettion.
-My website Database consists of *Pages (to meet CRUD requirement - Create Read Update Delete) in a database called MONGO DB Atlas* It is a highly scalable server which stores data in a non-relational format.
+## This Website & Database is heavily based on the Boutique-Ado e-commerce fullstack project.
+I chose **postgres** for my project, to use and demonstrate as a powerful fullstack database together with AWS bucket S3 and IAM users.  This is recommended by **C.I.** in the course. It features the excellent Boutique-Ado online project which I have copied directly and modified to suit the purposes of my own fullstack website project.
+I figured the ideas on this website were so excellent, how can one improve! I therefore have copied most if not all except 'Services App' which is my owm but once again inspired from other projects on the course;(see credits and acknowledgements at bottom of this page) from the Boutique Ado Fullstack full-functioning website,
+which I found most interesting.  The challenge for me is to be able to build the website exactly as it is done in the videos.  It is tricky but satisfying once I finally completed it.  I then repeated this website for my own purposes, building at each stage from conception to complettion.
+My website Database consists of *Pages (to meet CRUD requirements via the Product / bag and Checkout apps - Create Read Update Delete) in a database*. A highly scalable server which stores data in a non-relational format.
 
 
-#### Add recipe page (‘Create’, 'Read', 'Update', 'Delete')
-This is how users add recipes to the database. It contains a simple HTML form to collect the recipe attributes we intend to store. 
-The recipe collection in the database should have the same attributes.
+#### Add products via backend admin(‘Create’, 'Read', 'Update', 'Delete')
+This is how admin-users add products to the database. It contains a simple HTML form to collect the field attributes we intend to store. 
+The product collections are all categorised and stored in a json format and transferred to the database via STATIC and MEDIA files where it is stored remotely in a bucket at AWS SERVICES. The code is add . / commit -m "" / and push/ to GitHub and then channelled to Heroku which has been set up so that it automatically connects and should deploy automatically.  I set up my deployment fairly early in the build process in order to give my self
+less pressure and more peace of mind and watch more clearly the build process.
+
 
 ## Accessibility 
-The pages are asscesible via buttons on the *Home page*. A carousel provides seperate *Create* and *View Recipes buttons. The *Recipes*
-menu on the top right corner of the menu(home-page) is where users can view collection of recipes.  This is also accessed via the carousel view recipes button on the *Home page*.  *Add a Recipe* The Edit / Update and delete buttons come into play when user submits (button) Edit / Update pages are brought into view. The delete button removes recipe and returns to home page. The whole process resumes again via pressing *Create* button to add another recipe. The process of populating the database from *fontend* is simple quick and easy to do and fun too.
+The pages are asscesible via buttons on the *Home page* and a menu accross the top with dropdown navigational menus.  The website is mobile friendly as well as compatible across ipad through to full-desktop.
+The about page can be accessed on the top right corner of the menu(home-page).  The contact page can be accessed via the 'Our Services' heading on the drop-down menu.
 
 ## Features
 The main feature I am showcasing in this website is the CRUD FUNCTIONALITY.  The pages consist of the following:
-* A list of ingredients
-* A method/list of preparation instructions
-* Any other attributes necessary (the number of attributes does not need to be complex, since * * creating a new form element is just about copying and pasting others I create).
-* List of recipes page **(‘Read’)*
-* This page that displays the recipes in the database. ( this being on home page*).
-* The *add_recipe* page which displays the form and the recipe form_request which links to the flask database and then inserts the recipe into the database via the website. 
-* The *edit_recipe* page *(‘Update’)*
-* A page to edit an existing recipe. This looks exactly the same as the *add recipe* page, except this time, the form is pre-populated with values belonging to the recipe being edited.
+* 
+* 
+* 
+* List of products and services page **(‘Read’)*
+* These pages display the products in the database. ( this being on home page Product Management Section*).  Accessed via a superuser with staff status given credetials from the IAM users at AWS where username/ emails and passwords are verified.  
+  This is also accessed via the Users page on the built in django-backend admin-page.
+* The *add_product* *(Add a product)* page which displays the form allows the user to add a new product and service to the database together with an image field and category and sku for identification purposes. 
+* The *edit_product* page *(‘Update’)* page enables the user to update the text and the image field on the database.
+* A page to edit an existing and update existing products. This looks exactly the same as the *add recipe* page, except this time, the form is pre-populated with values belonging to the product or service being edited.
 
-Each recipe listed on the `home` page has an *edit button* that links to the `home` page.
-Delete link for each recipe *(‘Delete’)*
-Each recipe list (on the home page) has a *delete_recipe* button that links to the `delete view`*.
+Each Product or Service listed on the `home` page has an *edit button* that links to the `home` page.
+Delete link for each product *(‘Delete’)*
+Each product form (on the Product-Management link accessed via dropdown on the home page) has a *delete_recipe* button that links to the `delete view`*.
 
-_*Please note :- In the *insert_recipe* function I have copied and modified the *insert_recipe* code in order to insert reicipes and add the ingredients and instructions text line by line to make it easy for the
-user to add their own and update recipes in a similar format.  This is so the user finds the format easy to use and not have to think about how it looks on the page.
+_*Please note :- In the *insert_product* function I have copied and tried to modify the *insert_product* imagefield 'custom-clearable' in order to insert and upload the images from an external computor.  Unfortunaley, I have not had much success as some images work on the uploading image section and others do not. I consulted tutors and they suggested I revisit the AWS section of the course. Please note this issue only occurs on the deployed heroku site. Add the products and the image fields.//
 
-The *modified code* was copied from student repo "cook_book https://github.com/3PU/cook-book-milestone-project".
+-----///---
         
     @app.route("/insert_recipe", methods=["POST"])
     def insert_recipe():
