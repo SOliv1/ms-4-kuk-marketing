@@ -15,6 +15,19 @@
     margin: 35px;
 }
 
+.our_brands .row.h-100 {
+    color: #000;
+    font-family: 'Montserrat';
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.text-black {
+    color: #000!important;
+}
+
 /* services/about-Page -------------------------------------------------- */
 
 .jumbotron {
@@ -57,7 +70,7 @@
     width: 160px;
 }
 
-/*-- Image-background --*/
+/*-- Image-backgrounds --*/
 
 .col-md-5 img {
     width: 100%;
@@ -97,3 +110,14 @@ background-color: transparent;
 }
 
 
+/*--- contact-us ---*/
+
+.overlay-contact {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}

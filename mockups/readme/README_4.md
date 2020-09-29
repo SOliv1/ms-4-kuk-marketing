@@ -102,7 +102,7 @@ Once sorted with the issue in Django so the keys were correct, we then reset the
      And product information:
      Boutique Ado and Kagglec.om
      And  `http://Spectator.co.uk` 
-     and colour red touches and buttons-colour-scheme: 
+     and colour red touches and buttons-colour-scheme: #d30037;
 
      
 
