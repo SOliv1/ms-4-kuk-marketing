@@ -7,7 +7,7 @@ from django.db.models.functions import Lower
 from .models import Product, Category
 from .forms import ProductForm
 
-# Create your views here.
+# Create views here. Copied and modified from Boutique-Ado #
 
 
 def all_products(request):
@@ -88,7 +88,7 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Add product failed. Please ensure form is valid.')
+            messages.error(request, 'Add product failed. Please make sure form is valid.')
     else:
         form = ProductForm()
 

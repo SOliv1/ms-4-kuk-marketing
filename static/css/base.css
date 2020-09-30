@@ -2,6 +2,8 @@
 
 /* @import url("https://fonts.googleapis.com/css?family=Montserrat:0&display=swap" */
 
+
+
 html {
     height: 100%;
     font-family: 'Montserrat', sans-serif;
@@ -33,7 +35,6 @@ body {
 /* our_brands */
 
 
-
 .main-logo-link {
     width: fit-content;
 }
@@ -51,7 +52,7 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;  /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
