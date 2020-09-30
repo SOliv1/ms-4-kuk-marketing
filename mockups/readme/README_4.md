@@ -131,7 +131,10 @@ Once sorted with the issue in Django so the keys were correct, we then reset the
         https://docs.djangoproject.com/en/dev/topics/forms/modelforms/#overriding-the-default-fields
 1.      
 1.                     
-1.  
+1.      Stephen and Johann for assisting me in successfully renduring my image urls eg. 
+        https://kuk-milestone-4.s3.amazonaws.com/media/image-name-here
+
+        https://kuk-milestone-4.s3.amazonaws.com/media/image-name-here
 1.          
 1.          
 1.          
