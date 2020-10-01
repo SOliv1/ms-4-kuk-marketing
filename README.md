@@ -16,8 +16,6 @@
 
 ###  LIVE DEMO CAN BE FOUND AT HEROKU: https://kuk-milestone-4.herokuapp.com/
 
-### MOCKUPS FOLDER LOCATION HERE : [ms-4-kuk-marketing](mockups/)
-
 MOCKUPS:
 [ms-4-kuk-marketing](/mockups/mockups/)
 
@@ -84,7 +82,7 @@ I want to edit / delete / and update with my own requriements by filling out the
 
 *Please follow the link below to view README.md /wireframes and / Mockups*:
 
-[kuk-ms-4-marketing](http://github.com/SOliv1/ms-4-kuk-marketing/tree/master/readme)
+#### MOCKUPS FOLDER LOCATION HERE : [ms-4-kuk-marketing](mockups/)
 
 			
 ## This Website & Database is heavily based on the Code Institute (C.I.) Boutique-Ado e-commerce fullstack project.
