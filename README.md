@@ -88,24 +88,21 @@ I want to edit / delete / and update with my own requriements by filling out the
 ## This Website & Database is heavily based on the Code Institute (C.I.) Boutique-Ado e-commerce fullstack project.
 I chose **postgres** for my project, to use and demonstrate as a powerful fullstack database together with AWS bucket S3 storage facility and IAM users.  This is recommended by **C.I.** in the course. 
 It features the excellent Boutique-Ado online project which I have copied and modified to suit the purposes of my own fullstack website project. My 'Services-App' on the website is mostly my own code gleaned from various C.I. projects and excercise, I have done during the course; chiefly (**C.I.**)'Thorin and Company and Bootstrap4' and my own Procol Harum project(**First Milestone**).
-I figured the ideas on this website were so excellent, how can one improve! I therefore have copied most if not all except 'Services App' which is my owm but once again inspired from other projects on the course;(see credits and acknowledgements at bottom of this page) from the Boutique Ado Fullstack full-functioning website,
-which I found most interesting.  The challenge for me is to be able to build the website exactly as it is done in the videos.  It is tricky but satisfying once I finally completed it.  I then repeated this website for my own purposes, building at each stage from conception to complettion.
-My website Database consists of *Pages (to meet CRUD requirements via the Product / bag and Checkout apps - Create Read Update Delete) in a database*. A highly scalable server which stores data in a non-relational format.
+I figured the ideas on this website were so excellent, how can one improve! I therefore have copied most if not all except 'Services App' which is my own but once again inspired from other projects on the course;(see credits and acknowledgements at bottom of this page) from the Boutique Ado Fullstack full-functioning website,
+which I found most interesting.  The challenge for me is to be able to build the website exactly as it is done in the videos.  It is tricky but satisfying once I finally completed it.  I then repeated this website for my own purposes, building at each stage from conception to completion.
+My website Database consists of *Pages (to meet CRUD requirements via the Product / Bag and Checkout apps - Create Read Update Delete) in a database*. 'A highly scalable server which stores data in a non-relational format' quote form C.I.
 
 
 #### Add products via backend admin(‘Create’, 'Read', 'Update', 'Delete')
 This is how admin-users add products to the database. It contains a simple HTML form to collect the field attributes intending to store. 
 The product collections are all categorised and stored in a json format and transferred to the database via `STATIC and MEDIA files` in `KUK - Settings` 
-where it is stored remotely in a bucket at `AWS SERVICES`. The code is add . / commit -m "" / and push/ to GitHub and then channelled to Heroku which 
-has been set up so that it automatically connects and should deploy continuously every time I push to github.  
-I set up my deployment fairly early in the build process in order to give my self
-less pressure and more peace of mind and watch more clearly the build process.
+where it is then stored remotely in a bucket at `AWS SERVICES`. The code is add . / commit -m "" / and push/ to GitHub and then channelled to Heroku which has been set up so that it automatically connects and should deploy continuously every time I push to github.  
+I set up my deployment fairly early in the build process in order to give my self less pressure and more peace of mind and watch more clearly the build process.
 
 
 ## Accessibility 
-The pages are asscesible via buttons on the *Home page* and a menu accross the top with dropdown navigational menus.  The website is mobile friendly as well as compatible 
-across ipad through to full-desktop. The about page can be accessed on the top right corner of the menu(home-page).  
-The `contact page`  can be accessed via the 'Our Services' heading on the drop-down menu.  Also, from  `Get Quote` buttons throughout the website.
+The pages are asscesible via buttons on the *Home page* and a menu accross the top with dropdown navigational menus.  The website is mobile friendly as well as compatible across ipad through to full-desktop. The about page can be accessed on the top right corner of the menu(home-page).  
+The `contact page`  can be accessed via the 'Our Services' heading on the drop-down menu.  Also, from  `Get Quote` buttons located throughout the website.
 
 
 ## Features
@@ -118,21 +115,19 @@ The `Form` Pages using The *POST* request method
 The pages consist of the following:
 * List of products and services page **(‘Read’)*
 * These pages display the products in the database. (this being on home-page *Product Management Section*).  
-  Accessed via a superuser with staff status given credetials from the *IAM* users at *AWS* where username/ emails and passwords are verified and stored.  
+  Accessed via a superuser with staff status given credetials from the *IAM* users at *AWS* where username/ emails     and passwords are verified and stored.  
   This is also accessed via the Users page on the built in *django-backend admin-pages*.
 * The *add_product* *(Add a product)* page which displays the form allows the user to add a new product and service to the database together with an image field and category and sku for identification purposes. 
 * The *edit_product* page *(‘Update’)* page enables the user to update the text and the image field on the database.
-* A page to edit an existing and update existing products. This format is exactly the same as the *add product* page, except this time, 
-  the form is pre-populated with values belonging to the product or service being edited.
+* A page to edit an existing and update existing products. This format is exactly the same as the *add product* page,   except this time, the form is pre-populated with values belonging to the product or service being edited.
 
 Each Product or Service listed on the `home` page has an *edit button* that links to the `home` page.
 Delete link for each product *(‘Delete’)*
 Each product form (on the Product-Management link accessed via dropdown on the home page) has a *delete_product* button that links to the `delete view`*.
 
 _*Please note :- In the *insert_product* function I have copied and tried to modify the *insert_product* imagefield 'custom-clearable' in order to insert and upload the images from an external computor.  
-  Unfortunaley, I have not had much success as some images work on the uploading image section and others may not. I consulted tutors and they suggested I revisit the AWS section of the course. 
-  Please note this issue only occurs on the deployed heroku site. Add the products and the image fields. I have since leaned that I need to check all image-names are in sync with each other from Gitpod through Github 
-  and finally to Heroku and chiefly the AWS bucket which stores the image needs to be able to grab the correct URL. I still have not mastered this as reflected on the website.
+  Unfortunaley, I have not had much success as some images work on the uploading image section and others may not. I   consulted tutors and they suggested I revisit the AWS section of the course. 
+  Please note this issue only occurs on the deployed heroku site. Add the products and the image fields. I have since   learnt that I need to check all image-names are in 'sync'(match names exactly) with each other from Gitpod through to Github and finally to Heroku and chiefly the AWS bucket which stores the image needs to be able to grab the correct URL. I still have not mastered this as reflected on the website.
 
 -----///--- All the below code (I have selected the first sample code from the `all-products` section)from `products views` is attributed to **Boutique-Ado and its owner Chris Zielinski** -----///---
 
@@ -219,7 +214,7 @@ To revert to a previous commit - example below:
 ```
 
 #### Deployment to Github
-* Make sure the branch or folder as a publishing source exists in the repository. Example, before  publishing project site from the /docs folder on the master branch of that repository, 
+* Make sure the branch or folder as a publishing source exists in the repository. Example, before  publishing project   site from the /docs folder on the master branch of that repository, 
   Collaborator must create a /docs folder on the *master* branch of that repository.
 * On GitHub, navigate to site's repository.
 * Under repository name, click  Settings.
@@ -228,7 +223,7 @@ To revert to a previous commit - example below:
   https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 #### Cloning a repository to GitHub Desktop
-I clone one of my Boutique Ado to deploy locally on GitHub desktop. 
+If I want to clone my Boutique Ado to deploy locally on GitHub desktop. 
 On GitHub, I navigate to the main page of the repository.
 Under my repository name, I click to clone my repository in Desktop. I follow the prompts in GitHub Desktop to complete the clone.  
 
@@ -243,7 +238,7 @@ Under my repository name, I click to clone my repository in Desktop. I follow th
 1.  pip3 install django
     pip3 install autopep8 (for white space and gr8 for indentations etc)
 1.  django-admin startproject kuk_marketing 
-    To add a boilerplate: type html and a list and basic boilerplate for an html5 file.  gitpod shortcut or press arrow up then select ! press enter to create boilerplate.
+    To add a boilerplate: type html and a list and basic boilerplate for an html5 file.  gitpod shortcut or press         arrow up then select ! press enter to create boilerplate.
 1.  python3 manage.py migrate
 1.  python3 manage.py runserver
 1.  touch .gitignore
@@ -339,10 +334,10 @@ Different configuration files?
 
 $ heroku git:clone 
 Deploy changes
-Make some changes to the code you just cloned and deploy them to Heroku using Git.
+Make some changes to the code I just cloned and deploy them to Heroku using Git.
 
 #### Deploy changes
-Make some changes to the code you just cloned and deploy them to Heroku using Git.
+Make some changes to the code I just cloned and deploy them to Heroku using Git.
 ```
 $ git add .
 $ git commit -m ""
@@ -441,15 +436,16 @@ class CustomClearableFileInput(ClearableFileInput):
 ### Features Left to Implement:
 			* Search box to search the website packages and products in a more cohesive and timely manner
 			* Sort code to sort through products and website categories
-			* Login form with password so users sign in securely using the password to access the database.	- DONE
-			* More links to other companies specialising in our products and services. 	* Links to other specialised SERVICE sites appropriate to this website.
+			* Login form with password so users sign in securely using the password to access the     database- DONE
+			* More links to other companies specialising in our products and services. 	
+			* Links to other specialised SERVICE sites appropriate to this website.
 			* Contact Forms and social media to sign up for newsletters.
-            * Gallery of website examples and webpackages to view for visual impact
+                        * Gallery of website examples and webpackages to view for visual impact
 			* Another possible  feature to be incorporated is to be able and rate the products and services we offer. - DONE
 			* Social media and blogs
 			* Chat page / Forum
-            * Zoom and Live Streaming for consultations with potential and existing leads / clients
-            * Introduce a favicon to my website
+                        * Zoom and Live Streaming for consultations with potential and existing leads / clients
+                        * Introduce a favicon to my website
 #### Libraries / requirements used in my project:
 ```
 asgiref==3.2.10
@@ -490,29 +486,28 @@ whitenoise==5.2.0
 
 *	https://www.python.org/
 
-*   https://jsonformatter.org/
+*       https://jsonformatter.org/
 
 
- 1.  ```alt + up/down arrows to move a line or block of code up or down
+1.  ```alt + up/down arrows to move a line or block of code up or down
         alt + click` to select multiple regions
 1.      
 1.   pip3 install django-crispy-forms 
      pip3 install django-crispy-forms
      ```
  
-##  Deploying to heroku
+##  Do this in order to Deploy to heroku
   
 1.         ```pip3 install pip3 install whitenoise
-           pip3 install gunicorn  
+              pip3 install gunicorn  
            ```
-
-1. ` echo "env.py" >> .gitignore `
-    ` nano .gitignore ` to check that the file is still there (then exit out) by pressing enter 
-1.          `git status ` 
+    1. ` echo "env.py" >> .gitignore `
+       ` nano .gitignore ` to check that the file is still there (then exit out) by pressing enter 
+   1.          `git status ` 
    1.  To check heroku logs on the gitpod terminal:
        follow these steps f you quit the server with Ctrl+C then type
-    1.  `heroku login -i`
-    1.  `heroku config:set DISABLE_COLLECTSTATIC=1 --app kuk-milestone-4`
+   1.  `heroku login -i`
+   1.  `heroku config:set DISABLE_COLLECTSTATIC=1 --app kuk-milestone-4`
         and sign in, then run:
         heroku logs --tail -a kuk-milestone-4`
         Go to AWS login and create a bucket then the bucket policy and the user'
@@ -536,7 +531,7 @@ Encountered:
 ### BUGS  I encounted:-  
 To be honest, I encountered many challenges on this coding journey, too numerous to mention here, as I have no time left.  All I can convey is that I am grateful to the 
 Tutors who gave me ideas, pointers and all the trouble shooting tips included in the course as well as asking questions on Slack and looking for solutions on *Slack and https://stackoverflow.com/ . 
-Although challengeing it required me to stretch my mind and I hope that I have the skills and resources to carry on with the profession in some shape or form in my business ventures.
+Although challenging it required me to stretch my mind and I hope that I have the skills and resources to carry on with the profession in some shape or form in my business ventures.
 Below are some of the challenges I encountered in my project:-
 
 ####  Export  DATABASE_URL in Gitpod - very important!
@@ -545,7 +540,7 @@ Below are some of the challenges I encountered in my project:-
         then loaddata
         You have to migrate *before* your load other wise the database is never created.       
     1.  I had an issue with the above not being able to deploy properly to heroku because I did not follow 
-        the above procedure and therefore it did not create the database.  I tried resetting the databse and destroying it but it was a simple
+        the above procedure and therefore it did not create the database.  I tried resetting the databse and        destroying it but it was a simple
         procedure above that fixed it in the end.  I consulted a tutor who made me realize the steps that I had missed.  This was
         an experience I shall not forget in future.  
         *Needed to login by username in Django admin, regardless of `allauth`*
@@ -614,10 +609,10 @@ Other media images via my monthly subcription to ADOBE STOCK - https://stock.ado
 
 #### Acknowledgements
 I received inspiration for this project from:- 
-
+- ** Boutique-Ado**- Main attribute to Fullstack Project in Final Module by Chris Z.
 - "*The Spectator* - https://shop.spectator.co.uk/ 
--  the colour of my buttons are attributed to Spectator Shop
--   Brian Machira - *CI Mentor*
+-  The colour of my buttons are attributed to Spectator Shop - background-color: #d30037;
+-  Brian Machira - *CI Mentor*
 - Stephen from C.I. Tutor for trouble shooting databases
 - New Tutor from C. I. - Johann for trouble shooting image URLs on my website
 - Slack community - *various borrowed code snippets* which I then modify to suit my purposes, although
@@ -630,15 +625,13 @@ I received inspiration for this project from:-
 1.  The whole website code was copied from conception to completion and NOT Cloned.   
 Each page was copied and modified to suit the purposes of my website, 
     from the *Code Institue(C. I.) Fullstack final e-commerce website*.
-    Other ideas and layouts came from my previous milestones:-
-     Cook Corner(3) 
+    Other ideas and layouts came from my previous projects:-
+     Thorin and Company (practical python module) 
      and 
-     Procol Harum(1) which in turn were also based on the excellent C. I. mini projects and websites which I acknowledge in  my previous merits and acknowledgements.
-     Thorin and Company and 
-     Putting it altogether mini projects.
-
+     Procol Harum(Milestone-1) which in turn were also based on the excellent C. I. mini projects and websites which      I acknowledge in  my previous merits and acknowledgements and  
+     Putting it altogether (mini project Practical Python).
      And product information:
-     Boutique Ado and Kagglec.om
+     Boutique Ado and Kagglec.com
      And  `http://Spectator.co.uk` 
      and colour red touches and buttons-colour-scheme: #d30037;  
 
@@ -650,12 +643,12 @@ Each page was copied and modified to suit the purposes of my website,
 1.      Products and fixtures credits images 'Tailor Brands https://studio.tailorbrands.com/ : 
         *Brand-book-1_VvE5VhU.webp*, *Business-deck-1-1 (1).webp*, *Business-deck-1-1 (1).webp* 
         Also branding and marketing ideas are based the Tailor Brands website.
-1.      New Products all credits go to: Cool wine accesories and branding image and copied text credits from https://www.igopromo.co.uk/
+1.      New Products all credits go to: Cool wine accesories and branding image and copied text credits from     https://www.igopromo.co.uk/
 1.      New Products all credits go to: https://www.igopromo.co.uk/inspiration-pages/sustainable-products/bandana-rpet-multi-functional-scarf-all-over-printing/p4348-master    
 1.      Other website Ideas and inspiration - https://www.walkeragency.co.uk/workThan
 1.      The fantastic tutors for their unvaluable assistance and 
 1.      Student Care for being so encouraging when I felt like giving up at times.
-1.      Finally my Family deserve a mention for supporting me whilst I did this course and for that I thank you for being there.       
+1.      Finally my Family deserve a mention for supporting me whilst I did this course and for that I thank you for    being there.       
 1.  
 1.    * Product app Tutor suggestions from support Tutor*
 1.     *Given to me by Kevin at C.I. tutor support* 
