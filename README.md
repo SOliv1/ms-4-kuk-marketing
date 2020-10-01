@@ -16,8 +16,8 @@
 
 ###  LIVE DEMO CAN BE FOUND AT HEROKU: https://kuk-milestone-4.herokuapp.com/
 
->### README is located inside the MOCKUPS FOLDER Further information and alternative view via LINK HERE
-> README.md https://1drv.ms/w/s!AgMQTPoqZgRAjBzcw6gYVD7gImdt?e=5XbCvm
+>### README is located inside the MOCKUPS FOLDER Further information and alternative view via LINK HERE https://1drv.ms/w/s!AgMQTPoqZgRAkVvgZKx0bL0hpgc2?e=8Jt9Cx
+> README.md 
 > Location of `Mockups Folder` is located directly under Media Folder directly located under Kuk_marketing app.
   
 ## UX Introduction - Platform for B2B lead - Visual appeal
@@ -337,7 +337,7 @@ Make some changes to the code you just cloned and deploy them to Heroku using Gi
 Make some changes to the code you just cloned and deploy them to Heroku using Git.
 ```
 $ git add .
-$ git commit -am ""
+$ git commit -m ""
 $ git push heroku master
 
 ```
