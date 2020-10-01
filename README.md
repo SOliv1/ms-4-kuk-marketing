@@ -599,7 +599,15 @@ Some of The photos and credits obtained and used in this site were obtained from
 e.g. media - https://shop.spectator.co.uk ; https://Kaggle.com 
 Other media images via my monthly subcription to ADOBE STOCK - https://stock.adobe.com/
 
-#### Acknowledgements
+>#### ATTENTION PLEASE #### 
+##### The story of the Late Bug ####
+>Please beaware for reasons I cannot fathom although I have tested and added the api keys:
+>The checkout App does not work correctly and gets stuck on the http s://kuk-milestone-4.herokuapp.com/bag/  when I >checked this out at the last minute - **PLEASE MANUALLY ADD_:- https://kuk-milestone-4.herokuapp.com/checkout/
+>after the /bag/ to the url please ** to continue to the checkout app.  I am disappointed that this did not work at >the last minute >but understand I have to submit project. Many thanks for your understanding. **LATEST** - At the >very last >minute I was able to trouble shoot with Tutor Micklos and together we fixed it - I had left off the >secure checkout URL from my checkout buttons to go on the button to Secure checkout, hence it did not work.(Code attributed to boutique-ado).  I am >so grateful to him for >assisting me at this very late stage.  
+>I thank you and now the website is perfect in my eyes.
+
+
+## Acknowledgements
 I received inspiration for this project from:- 
 - ** Boutique-Ado**- Main attribute to Fullstack Project in Final Module by Chris Z.
 - "*The Spectator* - https://shop.spectator.co.uk/ 
