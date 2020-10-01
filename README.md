@@ -16,7 +16,17 @@
 
 ###  LIVE DEMO CAN BE FOUND AT HEROKU: https://kuk-milestone-4.herokuapp.com/
 
->### README is located inside the MOCKUPS FOLDER Further information and alternative view via LINK HERE https://1drv.ms/w/s!AgMQTPoqZgRAkVvgZKx0bL0hpgc2?e=8Jt9Cx
+### MOCKUPS FOLDER LOCATION HERE : [ms-4-kuk-marketing](mockups/)
+
+MOCKUPS:
+[ms-4-kuk-marketing](/mockups/mockups/)
+
+>### README is located inside the MOCKUPS FOLDER HERE 
+ [ms-4-kuk-marketing](mockups/readme/)
+Further information
+
+Microsoft word version of this ReadME: 
+https://1drv.ms/w/s!AgMQTPoqZgRAkVvgZKx0bL0hpgc2?e=8Jt9Cx
 > README.md 
 > Location of `Mockups Folder` is located directly under Media Folder directly located under Kuk_marketing app.
   
