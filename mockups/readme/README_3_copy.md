@@ -82,8 +82,8 @@
             
 1.          
 1.  stripe:
-    export STRIPE_PUBLIC_KEY=pk_test_
-    export STRIPE_SECRET_KEY=sk_test_
+    export STRIPE_PUBLIC_KEY=pk_test=""
+    export STRIPE_SECRET_KEY=sk_test=""
 
     export_STRIPE_WH_SECRET= ''
 
