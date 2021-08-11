@@ -1,23 +1,23 @@
-   
-    * https://validator.w3.org/ *
+* https://validator.w3.org/ *
   `https://getbootstrap.com/docs/4.4/getting-started/introduction/#starter-template`
 
-
-  1.  pip3 install django
+ 1. pip3 install django
     pip3 install autopep8 (for white space and gr8 for indentations etc)
-1.  django-admin startproject kuk_marketing 
+ 1. django-admin startproject kuk_marketing 
     To add a boilerplate: type html and a list and basic boilerplate for an html5 file.  gitpod shortcut or press arrow up then select ! press enter to create boilerplate.
-1.  python3 manage.py migrate
-1.  python3 manage.py runserver
-1.  touch .gitignore
-1.  python3 manage.py runserver
-1.  python3 manage.py migrate
-1.  python3 manage.py createsuperuser
-1.  git remote -v (we are already linked to github)
-1.  pip3 install django-allauth
-1.  configure settings
-1. install travis
-    #### travis https://travis-ci.org
+ 1. python3 manage.py migrate
+ 1. python3 manage.py runserver
+ 1. touch .gitignore
+ 1. python3 manage.py runserver
+ 1. python3 manage.py migrate
+ 1. python3 manage.py createsuperuser
+ 1. git remote -v (we are already linked to github)
+ 1. pip3 install django-allauth
+ 1. configure settings
+ 1. install travis
+
+### travis https://travis-ci.org
+
         which version 
         `python -V`
     ```AUTHENTICATION_BACKENDS = [

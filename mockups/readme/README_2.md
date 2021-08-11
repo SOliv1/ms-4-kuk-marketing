@@ -26,8 +26,7 @@
 
             check it out - python3 manage.py runserver - go to admin
 
-
-  1.  1.          copy our project-level urls.py
+ 1. copy our project-level urls.py
                         Create new file in the *home app*, called *urls.py*
                         And paste it in to use as a shell
                         take out 'include' here.
@@ -35,7 +34,7 @@
                         to render views.index. With the name of 'home'
                         then 'import views' from the current directory here at the top.
                         save that.
-  1. go back to the *project level URLs file* and include the *home URLs*
+ 1. go back to the *project level URLs file* and include the *home URLs*
                         The very last thing we need to do is add the 'home app' to installed apps in 'settings.py'
                         And then wire up our template directories.
                                 Add home to installed apps
