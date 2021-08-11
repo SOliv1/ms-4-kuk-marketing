@@ -22,6 +22,9 @@
  1. pip install gunicorn
  1. pip install psycopg2-binary
  1. pip freeze > requirements.txt
+ 1. try this for pipenv to install gunicorn:           "pipenv install gunicorn"
+
+ <https://stackoverflow.com/questions/33021874/heroku-gunicorn-not-working-bash-gunicorn-command-not-found>
 
 ### travis https://travis-ci.org
 
