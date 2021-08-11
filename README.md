@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.com/SOliv1/ms-4-kuk-marketing.svg?branch=master)](https://travis-ci.com/SOliv1/ms-4-kuk-marketing)
 [![CodeQL](https://github.com/SOliv1/ms-4-kuk-marketing/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/SOliv1/ms-4-kuk-marketing/actions/workflows/codeql-analysis.yml)
 [![Pylint](https://github.com/SOliv1/kuk/actions/workflows/pylint.yml/badge.svg?branch=master)](https://github.com/SOliv1/kuk/actions/workflows/pylint.yml)
+[![Jekyll site CI](https://github.com/SOliv1/ms-4-kuk-marketing/actions/workflows/jekyll.yml/badge.svg)](https://github.com/SOliv1/ms-4-kuk-marketing/actions/workflows/jekyll.yml)
 
 #### Table Of Contents
 * General Information
