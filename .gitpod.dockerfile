@@ -34,10 +34,10 @@ RUN echo ". /etc/mysql/mysql-bashrc-launch.sh" >> ~/.bashrc
 
 # Local environment variables
 # C9USER is temporary to allow the MySQL Gist to run
-ENV C9_USER="gitpod"
-ENV PORT="8080"
+ENV VSCODE_USER="VSCODE"
+ENV PORT="8000"
 ENV IP="0.0.0.0"
-ENV C9_HOSTNAME="localhost"
+ENV VSCODE_HOSTNAME="localhost"
 
 USER root
 # Switch back to root to allow IDE to load
