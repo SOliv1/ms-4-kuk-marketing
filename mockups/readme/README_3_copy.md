@@ -1,7 +1,9 @@
- ## Toasts 
+ # Toasts
+
+
     https://getbootstrap.com/docs/4.5/components/toasts/
 
- 1.         Inside the main templates/includes folder let's add an additional subfolder to contain all the toasts
+ 1.Inside the main templates/includes folder let's add an additional subfolder to contain all the toasts
                     These toasts will be small HTML snippets that will pop up when a user performs an action
                     such as adding something to their shopping bag.
                     success toast inside a file called toast success.html.
@@ -47,12 +49,14 @@
                         -last - add one more setting to *settings.py* to tell it to store messages in the session this is
                                 often not a required step because there is a default which falls back to this
                                 storage method but *NOTE - due to the use of git pod in these recordings it's required
-##  checkout                         for us*
-1.  python3 manage.py startapp checkout
 
-    1. go to models.py and add the appropriate code 
+## checkout for us*
+
+1. python3 manage.py startapp checkout
+
+    1. go to models.py and add the appropriate code
         add the app to the settings.py
-        'python3 manage.py makemigrations --dry-run' 
+        'python3 manage.py makemigrations --dry-run'
         pip3 install django_countries to add the countries to the checkout form
     1.  python3 manage.py makemigrations
         python3 manage.py makemigrations --dry-run
@@ -65,36 +69,36 @@
     1.  create a products.html inside the products directory
 
 
-    
+
 ##  Shopping bag
-1.      python3 manage.py startapp bag  
+1.      python3 manage.py startapp bag
         and add bag app to settings as well
    1.   go to views.py and add to that
         then create urls.py in bag and add paths to that
         followed by update paths in urls.py project
-        section 
+        section
         then context.py in bag app
         then in settings.py in context list of processors -  'bag.context.bag_contents',
-        
-   
+
+
    1.   `cp - r` means copy recursively
    1.   cp -r ../.pip-modules/lib/python3.8/site-packages/allauth/templates/*
-            
-1.          
+
+1.
 1.  stripe:
     export STRIPE_PUBLIC_KEY=pk_test=""
     export STRIPE_SECRET_KEY=sk_test=""
 
     export_STRIPE_WH_SECRET= ''
 
-            test card no = 
+            test card no =
             4242424242424242
-    second test card no. to trigger the overlay spinner:- 
+    second test card no. to trigger the overlay spinner:-
         test card spinner:- 4000002500003155
-    -   to test the integrations for stripe payments and the spinner overlay.        
-  
+    -   to test the integrations for stripe payments and the spinner overlay.
+
 ## Services app
 
-### Contact html 
-Forms to send to the backend - The GET method-used for retrieving data from the server. 
+### Contact html
+Forms to send to the backend - The GET method-used for retrieving data from the server.
                              - The POST method used for sending data to the server.
