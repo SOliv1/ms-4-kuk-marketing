@@ -1,1 +1,1 @@
-web: gunicorn kuk_marketing.wsgi:application
+web: gunicorn ms-4-kuk-marketing.wsgi:application
